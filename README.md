@@ -1,6 +1,6 @@
 # ICTUniversityTNU
 Qúa trình học tập của tôi
-##INFO
+## INFO
 Name: Duong Van Son
 Phone: +841654891155
 Email: duongvansonit@gmail.com

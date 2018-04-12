@@ -23,7 +23,7 @@ bool isEmpty(pList L)
 //Khoi tao Node
 Node *makeNode(int x)
 {
-	Node *p;
+	Node* p;
 	p = (Node*)malloc(sizeof(Node));
 	p->Data = x;
 	p->Next = NULL;
@@ -34,7 +34,7 @@ int count(pList L)
 {
 	int dem = 0;
 	Node *p = L;
-	while(p->Next != NULL)
+	while(p!= NULL)
 	{
 		dem++;
 		p = p->Next;

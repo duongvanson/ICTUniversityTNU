@@ -23,7 +23,7 @@ void init(listSV &LSV)
 	LSV = NULL;
 }
 //Nhap sinh vien
-void nhapSV(SinhVien sv)
+void nhapSV(SinhVien &sv)
 {
 	cin.ignore();
 	cout<<"\tMa SV: ";
@@ -34,7 +34,6 @@ void nhapSV(SinhVien sv)
 	getline(cin, sv.Lop);
 	cout<<"\tDiem TB: ";
 	cin>>sv.DiemTB;
-	cin.ignore();
 }
 //Hien sinh vien
 void xuatSV(SinhVien sv)
@@ -45,6 +44,7 @@ void xuatSV(SinhVien sv)
 Node* makeNode(SinhVien sv)
 {
 	Node* p;
+	p = (Node*)malloc(sizeof(Node));
 	p->Data = sv;
 	p->Next = NULL;
 	return p;
@@ -57,14 +57,15 @@ bool isEmpty(listSV LSV)
 //Dem so phan tu cua danh sach
 int count(listSV lsv)
 {
+	int dem = 0;
 	Node *p = lsv;
-	int i = 0;
-	while(p->Next != NULL)
+	while(p!= NULL)
 	{
+		dem++;
 		p = p->Next;
-		i++;
 	}
-	return i;
+	if(dem == 0) return 0;
+	else return dem+1;
 }
 //Them vao dau danh sach
 void themDau(listSV &lsv, SinhVien sv)
@@ -84,6 +85,19 @@ void themCuoi(listSV &lsv, SinhVien sv)
 	P = makeNode(sv);
 	M->Next = P;
 }
+void input(listSV &lsv)
+{
+	int n;
+}
+void output(listSV lsv)
+{
+	Node *P  = lsv;
+    while (P != NULL)
+    {
+        xuatSV(P->Data);
+        P = P->Next;
+    }
+}
 void Menu()
 {
 	cout<<"======================="<<endl;
@@ -92,8 +106,8 @@ void Menu()
 	cout<<"3. Dem so phan tu ds"<<endl;
 	cout<<"4. Them dau"<<endl;
 	cout<<"5. Them cuoi"<<endl;
-	cout<<""<<endl;
-	cout<<""<<endl;
+	cout<<"6. input"<<endl;
+	cout<<"7. output"<<endl;
 	cout<<""<<endl;
 	cout<<"======================="<<endl;
 }
@@ -126,7 +140,7 @@ int main()
 					cout<<"\tKhong rong."<<endl;
 				break;
 			case 3:
-				cout<<"\tCount: "<<count(LSV);
+				cout<<"\tCount: "<<count(LSV)<<endl;
 				break;
 			case 4:
 				cout<<"\tNhap thong tin sinh vien: "<<endl;
@@ -139,6 +153,12 @@ int main()
 				nhapSV(sv);
 				themCuoi(LSV, sv);
 				cout<<"\tOK!"<<endl;
+				break;
+			case 6:
+				input(LSV);
+				break;
+			case 7:
+				output(LSV);
 				break;
 			default:
 				cout<<"\tKhong hop le"<<endl;

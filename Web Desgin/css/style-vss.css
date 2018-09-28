@@ -1,0 +1,8 @@
+body{
+	background: url("../images/background/bg01.jpg");
+	background-size: cover;
+}p.logo{
+	text-align: center;
+	font-size: 10em;
+	color: #fff;
+}

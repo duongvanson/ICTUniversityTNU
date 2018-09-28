@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 800px;
+	margin: 0 auto;
+}
+#form{
+	border: 2px solid #08A28A;
+	padding: 20px;
+}
+.title{
+	text-align: center;
+	font-style: italic;
+}
+.hang{
+	padding: 0;
+	border: 1px solid gray;
+	border-top: none;
+}
+.bdtop{
+	border-top: 1px solid gray;
+}
+.noneR{
+	border-right: none;
+}
+label{
+	padding: 10px;
+	width: 30%;
+	display: inline-block;
+	border-right: 1px solid gray;
+}
+input,select{
+	padding: 5px;
+}
+input[type="text"],input[type="password"], textarea{
+	width: 60%;
+}
+fieldset{
+	margin: 10px 0px;
+	border-radius: 5px;
+}
+p.button{
+	text-align: center;
+	margin-top: 10px;
+}
+input[type="submit"]{
+	background: #08A28A;
+	color: #fff;
+}
+.bdnone{
+	border: none;
+}
+legend{
+	font-weight: bold;
+}
+.sao{
+	color: red;
+}

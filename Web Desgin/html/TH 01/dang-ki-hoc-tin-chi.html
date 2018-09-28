@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng ký học</title>
+	<style>
+		h1{
+			color: red;
+			text-align: center;
+		}
+		label{
+			padding-left: 20px;
+			display: inline-block;
+			width: 100px;
+		}
+		input[type="text"]{
+			border: 1px solid #EC0ED4;
+		}
+		input{
+			padding: 5px;
+		}
+		span{
+			mar
+		}
+		td.chk{
+			text-align: center;
+		}
+		body{
+			width: 960px;
+			margin: 0 auto;
+		}
+		table{
+			width: 100%;
+			border-collapse: collapse;
+		}
+		th, td{
+			border: 1px solid black;
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Form đăng kí học tín chỉ</h1>
+	<form action="#">
+		<label>Họ và tên: </label> <input type="text" name="hoTen"> <span>*</span><br><br>
+		<label>Lớp: </label> <input type="text" name="lop"><span>*</span><br><br>
+		<hr>
+		<table>
+			<tr>
+				<th>Mã LHP</th>
+				<th>Lớp học phần</th>
+				<th>Số TC</th>
+				<th>Thứ</th>
+				<th>Tiết</th>
+				<th>Chọn</th>
+				<th>Giáo viên giảng dạy</th>
+				<th>Phòng</th>
+				<th>Ghi chú</th>
+			</tr>
+			<tr>
+				<td>JAVA</td>
+				<td>J2EE</td>
+				<td>3</td>
+				<td>2</td>
+				<td>1-4</td>
+				<td class="chk"><input type="checkbox" name="chkJava"></td>
+				<td>Ths. Nguyễn Văn Lành</td>
+				<td>A208</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>UML1</td>
+				<td>Phân tích & Thiết kế hướng đối tượng 1</td>
+				<td>3</td>
+				<td>2</td>
+				<td>6-7</td>
+				<td class="chk"><input type="checkbox" name="chkUML1"></td>
+				<td>Ts. Nguyễn Thanh Bình</td>
+				<td>A207</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>UML2</td>
+				<td>Phân tích & Thiết kế hướng đối tượng 2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>8-9</td>
+				<td class="chk"><input type="checkbox" name="chkUML2"></td>
+				<td>Ts. Nguyễn Văn Minh</td>
+				<td>A206</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>CSD1</td>
+				<td>Cơ sở dữ liệu phân tán 1</td>
+				<td>3</td>
+				<td>4</td>
+				<td>9-10</td>
+				<td class="chk"><input type="checkbox" name="chkCSD1"></td>
+				<td>Ths. Trần Văn Kiên</td>
+				<td>A205</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>CSD2</td>
+				<td>Cơ sở dữ liệu phân tán 1</td>
+				<td>3</td>
+				<td>5</td>
+				<td>1-4</td>
+				<td class="chk"><input type="checkbox" name="chkCSD2"></td>
+				<td>Ths. Đỗ Thị Hoa</td>
+				<td>A204</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>TTNT</td>
+				<td>Trí tuệ nhân tạo</td>
+				<td>3</td>
+				<td>5</td>
+				<td>1-4</td>
+				<td class="chk"><input type="checkbox" name="chkTTNT"></td>
+				<td>Ts. Trần Thảo Nguyên</td>
+				<td>A201</td>
+				<td></td>
+			</tr>
+		</table>
+		<hr>
+		<p>	Tổng tín chỉ đã chọn: <span id="tinChiDangKy">null</span> (Bạn chỉ được chọn những lớp học phần không trùng giờ, không trùng môn và tổng tín chỉ >= 12)</p>
+		<input type="submit" name="submit" value="Xác nhận" style="background: #1D6F8E; color: #fff;">
+		<input type="reset" name="reset" value="Đặt lại" style="background: #000; color: #fff;">
+		<input type="button" name="giupDo" value="Giúp đỡ">
+	</form>
+</body>
+</html>

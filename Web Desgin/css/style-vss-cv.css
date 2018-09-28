@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 960px;
+	margin: 10px auto;
+	background: #414447;
+}
+#content{
+	width: 100%;
+}
+/* left */
+#left{
+	float: left;
+	border-right: 1px solid #B2B2B2;
+	padding-right: 1%;
+	width: 35%;
+}
+.avt{
+	border-radius: 50%;
+}
+.head{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+.head h1, .head p{
+	color: #fff;
+}
+ul.social{
+	list-style-type: none;
+	margin-bottom: 20px;
+	text-align: center;
+}
+ul.social li{
+	display: inline-block;
+	padding: 0px 3px;
+}
+ul.social li a img:hover{
+	opacity: 0.5;
+}
+.info{
+	margin: 5px 10px;
+}
+.sub-title, .title{
+	color: #F5F5F5;
+}
+.sub-content{
+	margin-left: 10px;
+	color: #ccc;
+}
+#main{
+	float: left;
+	padding-left: 5%;
+	padding-top: 5%;
+	width: 65%;
+}
+.title{
+	padding: 10px 0px;
+}
+.thongtin, .hocvan, .congviec,.kynang{
+	margin: 20px 0px;
+	clear: both;
+}
+.gioithieu{
+	padding-left: 5%;
+	color: #ccc;
+}
+.noidung{
+	color: #ccc;
+}
+.mota{
+	color: #ded;
+}
+.sub-left{
+	float: left;
+	padding-left: 5%;
+	padding-right: 10px;
+	font-weight: bold;
+	width: 120px;
+	color: #C4C4C4;
+}
+.sub-right{
+	float: left;
+	padding-left: 10px;
+	border-left: 1px solid #B2B2B2;
+}
+.line-hv{
+	margin-bottom: 10px;
+	overflow: auto;
+}
+ul.kynangcanhan{
+	list-style-type: none;
+}
+ul.kynangcanhan li{
+	font-style: initial;
+	color: #ded;
+	margin: 5px 0px;
+}
+.tinhoc, .tienganh, .cplus, .csharp, .java{
+	height: 10px;
+	background: #fff;
+}
+.line{
+	background: #80868C;
+}
+.tinhoc{
+	width: 70%;
+}
+.tienganh{
+	width: 20%;
+}
+.cplus{
+	width: 50%;
+}
+.csharp{
+	width: 70%;
+}
+.java{
+	width: 40%;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng ký</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+		}
+		body{
+			background: url("../../images/error.PNG");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		form{
+			width: 700px;
+			margin: 0 auto;
+			margin-top: 20px;
+			padding: 50px;
+			background: #fff;
+		}
+		h1{
+			text-align: center;
+		}
+		label{
+			display: inline-block;
+			width: 100px;
+		}
+		input{
+			padding: 5px;
+		}
+		input[type="text"],input[type="password"]{
+			border: 1px solid #902C99;
+		}
+		input[type="submit"], input[type="reset"]{
+			padding: 5px;
+			border-radius: 5px;
+			background: #000;
+			color: #fff;
+		}
+		input[type="submit"]{
+			background: #1D6F8E;
+		}
+		.button{
+			text-align: center;
+		}
+		textarea{
+			border: 2px solid red;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<form action="#">
+		<h1>Hãy nhập thông tin vào form đăng ký</h1><br>
+		<p>Với việc nhập các thông tin cá nhân và submit form, bạn đã đồng ý với các điều khoản của trang web chúng tôi.</p><br>
+		<label>Tên đăng nhập: </label>
+		<input type="text" name="tenDangNhap"><span>*</span><br><br>
+		<label>Họ tên: </label>
+		<input type="text" name="hoTen"><span>*</span><br><br>
+		<label></label><span style="color: green; font-style: italic;">(Chữ in hoa có dấu)</span><br><br>
+		<label>Mật khẩu: </label>
+		<input type="password" name="matKhau"><span>*</span><br><br>
+		<label>Gõ lại: </label>
+		<input type="password" name="matKhau2"><span>*</span><br><br>
+		<label>Email: </label>
+		<input type="text" name="email" placeholder="abc@gmail.com"><span>*</span><br><br>
+		<label>Giới tính: </label>
+		<input type="radio" name="gioiTinh" checked> Nam
+		<input type="radio" name="gioiTinh"> Nữ
+		<br><br>
+		<label>Quê quán: </label>
+		<select name="queQuan">
+			<option value="haNoi">Hà Nội</option>
+			<option value="thaiNguyen">Thái Nguyên</option>
+		</select>
+		<br><br>
+		<label>Sở trường CV: </label><br>
+		<textarea name="soTruongCV" cols="30">
+			
+		</textarea><br>
+		<input type="checkbox" name="chkDongY"> Tôi đồng ý các điều khoản của website <br><br>
+		<div class="button">
+		<input type="submit" name="xacNhan" value="Tạo tài khoản">
+		<input type="reset" name="datLai" value="Đặt lại">
+		</div>
+	</form>
+</body>
+</html>

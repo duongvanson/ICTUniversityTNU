@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Phiếu đánh giá</title>
+	<link rel="stylesheet" href="../css/style-pdg.css">
+</head>
+<body>
+	<div id="form">
+		<form action="#">
+			<h1 class="title">Phiếu đánh giá</h1>
+			<div class="hang bdtop">
+				<label>Tên người lấy ý kiến:</label>
+				<input type="text" name="tenNguoi">
+				<span class="sao">*</span>
+			</div>
+			<div class="hang">
+				<label>Mật khẩu:</label>
+				<input type="password" name="matKhau"><span class="sao">*</span>
+			</div>
+			<div class="hang">
+				<label>Xác nhận mật khẩu:</label>
+				<input type="password" name="matKhau2"><span class="sao">*</span>
+			</div>
+			<div class="hang">
+				<label>Giới tính:</label>
+				<input type="radio" name="gioiTinh" checked><span style="margin-right: 20px;"> Nam</span><input type="radio" name="gioiTinh"><span style="margin-right: 20px;"> Nữ</span>
+			</div>
+			<fieldset>
+			<legend>Lấy ý kiến</legend>
+			<label class="noneR">Xem nội dung website:</label>
+			<select>
+				<option>--Chọn website--</option>
+			</select><br><br>
+			<label class="noneR">Xem nội dung website:</label>
+			<select>
+				<option>--Chọn website--</option>
+			</select><br><br>
+		</fieldset>
+		<div class="hang bdtop">
+			<label class="noneR">Ghi chú:</label>
+			<textarea name="ghiChu" cols="20" style="margin-top:10px;"></textarea>
+		</div>
+		<p class="button"><input type="submit" name="danhGia" value="Đánh giá"></p>
+		</form>
+	</div>
+</body>
+</html>

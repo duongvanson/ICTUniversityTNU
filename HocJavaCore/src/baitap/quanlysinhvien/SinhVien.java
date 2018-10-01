@@ -2,6 +2,8 @@ package baitap.quanlysinhvien;
 
 import java.util.Scanner;
 
+import baitapthuchanh.th3ncdagiac.Nhap;
+
 public class SinhVien {
 	//Scanner scn = new Scanner(System.in);
 	private String maSV, hoTen;

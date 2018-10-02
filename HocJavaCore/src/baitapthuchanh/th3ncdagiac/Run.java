@@ -4,10 +4,16 @@ public class Run {
 		// TODO Auto-generated method stub
 		TamGiac tg = new TamGiac();
 		tg.nhapCanh();
-		tg.hienThiCanh();
-		System.out.println();
-		System.out.println("Chu vi = " + tg.tinhChuVi());
-		System.out.println("Dien tich = " + tg.tinhDienTich());
+		if(tg.kiemTraTamGiac())
+		{
+			tg.hienThiCanh();
+			System.out.println();
+			System.out.println("Chu vi = " + tg.tinhChuVi());
+			System.out.println("Dien tich = " + tg.tinhDienTich());
+		}
+		else {
+			System.out.println("3 canh nhap vao khong thoa man dieu kien.");
+		}
 	}
 
 }

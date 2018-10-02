@@ -7,6 +7,11 @@ public class TamGiac extends DaGiac{
 			canhs[i] = Nhap.nhapDouble();
 		}
 	}
+	public boolean kiemTraTamGiac() {
+		return (canhs[0] + canhs[1] > canhs[2]
+				&& canhs[0] + canhs[2] > canhs[1]
+				&& canhs[1] + canhs[2] > canhs[0]);
+	}
 	public double tinhChuVi() {
 		double chuVi = 0.d;
 		for(int i = 0; i < canhs.length; i++) {

@@ -1,0 +1,34 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration:none;
+}
+#menu{
+	background: #000;
+}
+#menu ul{
+	list-style-type: none;
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu a{
+	display: block;
+	font-size: 16px;
+	line-height: 32px;
+	color: #fff;
+	padding: 10px;
+}
+#menu a:hover{
+	background: #fff;
+	color: #000;
+}
+#menu li{
+	position: relative;
+}
+.s-menu{
+	position: absolute;
+}

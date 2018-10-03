@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #333;
+}
+#main{
+	width: 50%;
+	margin: 0px auto;
+	background: #555;
+	padding: 10px;
+}
+.post{
+	border-bottom: 1px solid gray;
+	padding: 10px;
+	clear: left;
+	overflow: auto;
+}
+.post img{
+	float: left;
+	width: 20%;
+	height: auto;
+	margin-right: 10px;
+	border: 1px solid #fff;
+}
+.post-title{
+	color: #fff;
+	font-weight: bold;
+	font-size: 120%;
+}
+.post-content{
+	padding: 10px;
+	color: #E3DDDD;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 20px;
+}
+a.post-title:hover{
+	color: red;
+}

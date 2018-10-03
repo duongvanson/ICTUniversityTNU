@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+a{
+	text-decoration:none;
+	color: #fff;
+	text-transform: capitalize;
+}
+#main{
+	width: 40%;
+	background: #000;
+	margin: 10px auto;
+	padding: 25px 10px;
+	overflow: auto;
+	border-radius: 10px;
+}
+.head-post{
+	color: #fff;
+	margin-bottom: 10px;
+}
+.post{
+	border-bottom: 1px solid #555;
+	float: left;
+	padding: 10px 0px;
+}
+.img-post{
+	width: 20%;
+	float: left;
+	padding-right: 10px;
+}
+.post a:hover{
+	color: green;
+}

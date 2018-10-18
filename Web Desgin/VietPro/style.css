@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+#header{
+	background: #ff9600;
+	padding-top: 15px;
+}
+#search, #cart{
+	padding-top: 20px;
+}
+#logo{
+	height: 98px;
+	width: 280px;
+}
+#search input[type="text"]{
+	padding-right: 30%;
+	background: #ff9600;
+	color: #fff;
+}
+#search input[type="text"]::placeholder{
+	color: #fff;
+}
+#search input[type="submit"]{
+	padding-left: 20px;
+	padding-right: 5px;
+	background: #fff;
+	color: #ff9600;
+}
+#search input{
+	border: 1px solid #fff;
+	padding: 5px;
+	float: left;
+}
+#cP{
+	position: relative;
+}
+#cC{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	color: #ff9600;
+}
+#menu ul, #side-left ul{
+	list-style-type: none;
+}
+#side-left li{
+	margin-bottom: 17px;
+}
+#menu li.title{
+	background: #f5f5f5;
+	color: #333;
+}
+#menu li p{
+	display: block;
+	padding: 10px 5px;
+	margin: 0px;
+	border-bottom: 1px solid #888;
+}
+#menu li a{
+	color: #555;
+	padding: 10px 5px;
+	margin: 0px 10px;
+	display: block;
+	border-bottom: 1px solid #999;
+}
+#menu li.last a{
+	border:none;
+}
+#menu a:hover{
+	color: #000;
+}
+#nav{
+	margin-top: 10px;
+}
+.title{
+	color: #ff9600;
+	font-size: 18px;
+	margin: 20px 0px 10px 0px;
+}
+.product{
+	text-align: center;
+	border:1px solid #ddd;
+	padding: 10px;
+}
+.name-pro{
+	color: #000;
+	font-size: 14px;
+}
+.price{
+	color: #d60000;
+	font-weight: bold;
+}
+#noi-bat,#moi{
+	margin: 0px 15px;
+}
+.f-info{
+	background: #ff9600;
+	color: #fff;
+	padding: 20px;
+}
+.f-allright{
+	background: #ff6700;
+	color: #fff;
+	padding: 20px;
+}
+.f-title{
+	font-size: 18px;
+}
+.f-text{
+	font-size: 14px;
+}
+.f-text2{
+	font-size: 12px;
+}
+#footer{
+	margin-top: 84px;
+	max-width: 100%;
+}

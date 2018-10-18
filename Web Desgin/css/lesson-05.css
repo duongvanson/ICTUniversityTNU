@@ -38,6 +38,7 @@ a{
 	display: none;
 	width: 250px;
 }
+.s-menu
 #menu li:hover .s-menu{
 	display: block;
 }

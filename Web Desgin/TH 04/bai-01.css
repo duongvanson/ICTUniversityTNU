@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+a{
+	text-decoration: none;
+}
+#menu{
+	background: #222;
+}
+#menu ul{
+	list-style-type: none;
+}
+.item{
+	display: inline-block;
+}
+.item a{
+	display: block;
+	font-size: 16px;
+	line-height: 32px;
+	padding: 10px;
+	color: #fff;
+}
+.item a:hover{
+	background: #fff;
+	color: gray;
+}
+#menu ul > .item{
+	position: relative;
+}
+.item ul{
+	position: absolute;
+	display: none;
+	background: #222;
+}
+.item > ul> li{
+	width: 150px;
+}
+#menu > ul > .item > ul{
+	left: 0;
+	top: 100%;
+}
+.item:hover > ul{
+	left: 100%;
+	top: 0;
+	display: block;
+}

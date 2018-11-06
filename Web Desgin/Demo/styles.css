@@ -1,0 +1,11 @@
+#header{
+	margin: 10px 0px;
+}
+#timkiem input{
+	padding-right: 30%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 1px solid gray;
+	border-radius: 20px;
+}

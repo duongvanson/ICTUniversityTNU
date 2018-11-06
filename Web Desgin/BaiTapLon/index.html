@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2STMC - Đọc truyện tranh hay nhất</title>
+	<link id="style" rel="stylesheet" href="css/styles-dark.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/envents.js"></script>
+</head>
+<body onload="checkCookie()">
+	<!-- HEADING -->
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#">
+						<h2 class="logo">2STMC</h2>
+						<p class="s-logo">Đọc truyện tranh online</p>
+					</a>
+				</div>
+				<div id="menu" class="col-md-6">
+					<a href="#new">Truyện mới</a>
+					<a href="#hot">Truyện nổi bật</a>
+					<a href="#the-loai">Thể loại</a>
+					<a href="#">Tác giả</a>
+					<a href="#">Đóng góp</a>
+					<div id="search">
+						<form action="#">
+							<input class="timKiem" type="text" name="timKiem" placeholder="Nhập tên truyện, tác giả...">
+							<input type="submit" name="btnTimKiem" value="Tìm kiếm" class="btnTimKiem">
+						</form>
+					</div>
+				</div>
+				<div id="account" class="col-md-3">
+					<a href="dang-nhap.html" class="btn-login">Đăng nhập</a>
+					<a href="dang-ky.html" class="btn-reg">Đăng ký</a>
+					<a href="#" id="night-light" onclick="changeStyle()"><img src="images/21-moon-night-many-clouds-icon.png"></a>
+					<hr>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</div>
+	<!-- Truyện nổi bật -->
+	<div id="hot">
+		<div class="container">
+			<h2>Truyện nổi bật</h2>
+			<hr>
+			<div class="row">
+			<div class="col-md-2">
+				<a href="#"><img src="truyen/dokunie/logo.jpg" alt="" class="img-fluid img-hot"></a>
+				<a href="#"><p class="name-hot">Dokunie</p></a>
+			</div>
+			<div class="col-md-2">
+				<a href="#"><img src="truyen/dong-phuong/mcith_DongPhuongBatBai.jpg" alt="" class="img-fluid img-hot"></a>
+				<a href="#"><p class="name-hot">Đông Phương</p></a>
+			</div>
+			<div class="col-md-2">
+				<a href="truyen/hard-core.html"><img src="truyen/hard-core/CPeO_O5UEAA6RmN.jpg" alt="" class="img-fluid img-hot"></a>
+				<a href="truyen/hard-core.html"><p class="name-hot">Hard Core</p></a>
+			</div>
+			<div class="col-md-2">
+				<a href="#"><img src="truyen/hoa-hong-niem/logo.jpg" alt="" class="img-fluid img-hot"></a>
+				<a href="#"><p class="name-hot">Hoa Hồng Niêm</p></a>
+			</div>
+			<div class="col-md-2">
+				<a href="#"><img src="truyen/judas-chuyen/mcith_judas.jpg" alt="" class="img-fluid img-hot"></a>
+				<a href="#"><p class="name-hot">Judas Chuyện</p></a>
+			</div>
+			<div class="col-md-2">
+				<a href="#"><img src="truyen/metal-gear/logo.jpg" alt="" class="img-fluid img-hot"></a>
+				<a href="#"><p class="name-hot">Metal Gear</p></a>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- Trang chính -->
+	<div id="main">
+		<div class="container">
+		<div class="row">
+				<div id="side-l" class="col-md-3">
+					<div id="the-loai">
+						<h2 class="mn-title">Thể loại</h2>
+						<ul>
+							<li><a href="#">Truyện việt nam</a></li>
+							<li><a href="#">Manga</a></li>
+							<li><a href="#">Kinh dị</a></li>
+							<li><a href="#">Kỳ bí</a></li>
+							<li><a href="#">Viễn tưởng</a></li>
+							<li><a href="#">Võ thuật</a></li>
+							<li><a href="#">Phiêu lưu</a></li>
+							<li><a href="#">Tình cảm</a></li>
+							<li><a href="#">Hành động</a></li>
+							<li><a href="#">Tình cảm</a></li>
+							<li><a href="#">Khoa học viễn tưởng</a></li>
+							<li><a href="#">Kịch tính</a></li>
+							<li><a href="#">Ngoại truyện</a></li>
+							<li><a href="#">Quân sự</a></li>
+							<li><a href="#">Ly kỳ</a></li>
+							<li><a href="#">Trinh thám</a></li>
+							<li><a href="#">Ecchi</a></li>
+							<li><a href="#">Hài hước</a></li>
+							<li><a href="#">Manhua</a></li>
+							<li><a href="#">Khác</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="side-r" class="col-md-9">
+					<div id="new">
+						<h2 class="mn-title">Truyện mới cập nhật</h2>
+						<div class="row">
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/dokunie/logo.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Dokunie</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/dong-phuong/mcith_DongPhuongBatBai.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Đông phương bất bại</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>5.6</span></p>
+							</div>
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/hard-core/CPeO_O5UEAA6RmN.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Hard Core</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>7.0</span></p>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/judas-chuyen/mcith_judas.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Judas Truyện</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/ong-ke-sau-6h/mcith_00_ong_k.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Ông kẹ sau 6 giờ</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/metal-gear/logo.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Metal Gear</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+						</div>
+						<div class="page-new">
+							<ul>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="pupolar">
+						<h2 class="mn-title">Truyện phổ biến</h2>
+						<div class="row">
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/hoa-hong-niem/logo.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Hoa Hồng Niêm</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/dong-phuong/mcith_DongPhuongBatBai.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Đông phương bất bại</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/hard-core/CPeO_O5UEAA6RmN.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Hard Core</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/judas-chuyen/mcith_judas.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Judas Truyện</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/ong-ke-sau-6h/mcith_00_ong_k.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Ông kẹ sau 6 giờ</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-4">
+								<a href="#"><img src="truyen/metal-gear/logo.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Metal Gear</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+						</div>
+						<div class="page-new">
+							<ul>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Copyright &copy 2SMTC - 2018</p>
+	</div>
+</body>
+</html>

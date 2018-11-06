@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2SMTC - Đăng ký tài khoản</title>
+	<link id="style" rel="stylesheet" href="css/styles-dark.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/envents.js"></script>
+	<style type="text/css">
+		body{
+			width: 500px;
+			margin: 10% auto;
+			background: #111 !important;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="register">
+		<form onsubmit="dangKy()" method="post">
+			<h1>Đăng ký</h1>
+			<input type="text" name="username" placeholder="Nhập tên tài khoản" id="username"><br><br>
+			<input type="password" name="password" placeholder="Nhập mật khẩu" id="password"><br><br>
+			<input type="password" name="password" placeholder="Nhập lại mật khẩu" id="re-password"><br><br>
+			<input type="submit" name="login" value="Đăng ký"><br><br>
+			<a href="dang-nhap.html">
+				Tôi đã có tài khoản?
+			</a><br>
+			<a href="index.html">Trang chủ</a>	
+		</form>	
+	</div>
+</body>
+</html>

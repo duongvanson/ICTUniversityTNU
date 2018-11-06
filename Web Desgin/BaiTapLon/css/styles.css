@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 16px;
+}
+.blue900{ color: #0D47A1; }
+.blue800{ color: #1565C0; }
+.teal800{ color: #00695C; }
+/*-----HEADER-----*/
+#header{
+	background: #f0f0f0;
+	padding-top: 20px;
+}
+.logo{
+	font-weight: bold;
+	text-align: center;
+}
+.s-logo{
+	font-style: italic;
+	text-align: center;
+}
+#menu{
+	text-align: left;
+}
+#menu a{
+	font-weight: bold;
+	padding: 10px;
+}
+#menu a:hover{
+	background: #c2c2c2;
+	border-radius: 5px;
+	text-decoration: none;
+}
+#search {
+	padding-top: 10px;
+}
+.timKiem{
+	margin-left: 10px;
+	float: left;
+	padding:5px 40px 5px 5px;
+	border: 1px solid #fff;
+	color: #0d47a1;
+	border-radius: 5px;
+}
+.btnTimKiem{
+	padding: 5px 5px;
+	background: #0D47a1;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+}
+#account{
+	padding-top: 10px;
+	text-align: center;
+}
+.btn-login{
+	background: #00695c;
+}
+.btn-reg{
+	background: #B71C1C;
+}
+.btn-login, .btn-reg{
+	padding: 10px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+}
+.btn-login:hover, .btn-reg:hover{
+	text-decoration: none;
+	color: #dedede;
+	opacity: 0.8;
+}
+/*Truyen noi bat*/
+#hot{
+	background: #dedede;
+}
+.img-hot{
+	height: 250px !important;
+	padding: 5apx;
+}
+.name-hot{
+	text-align: center;
+	color: #00695c;
+}
+#hot h2{
+	color: #00695c;
+	padding: 10px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 120%;
+}
+/*Side Left*/
+.mn-title{
+	width: 100%;
+	background: #dedede;
+	color: #00695c;
+	padding: 5px;
+	font-size: 150%;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	border-left: 5px solid #00695c;
+}
+#the-loai ul{
+	list-style-type: none;
+	padding-left: 10px;
+}
+#the-loai a{
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+}
+#the-loai a:hover{
+	background: #dedede;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	border-left: 5px solid #00695c;
+}
+/*Post new hot update*/
+.post img{
+	float: left;
+	width: 50%;
+	margin-right: 10px;
+}
+.title-post{
+	font-weight: bold;
+	font-size: 100%;
+}
+.post ul{
+	list-style-type: none;
+}
+.vote{
+	font-weight: bold;
+	font-style: italic;
+
+}
+.vote span{
+	color: red;
+}
+#new{
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+/*Page new*/
+.page-new ul{
+	list-style-type: none;
+}
+.page-new li{
+	float: left;
+}
+.page-new a{
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+}
+/*Footer*/
+#footer{
+	background: #000;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0px;
+}
+/*DANG NHAP HE THONG*/
+#night-light{
+	margin-left: 20px;
+}

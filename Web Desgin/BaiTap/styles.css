@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	padding-top: 100px;
+	width: 960px;
+	margin: 0 auto;
+}
+#sanpham{
+	width: 40%;
+	float: left;
+	margin-right: 50px;
+}
+.hang{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.hang img{
+	width: 200px;
+	height: auto;
+}
+.hang button{
+	padding: 10px;
+	text-transform: uppercase;
+	background:#fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.tien,.delete{
+	color: red;
+	font-weight: bold;
+	cursor: no-drop;
+}
+table,td,th{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	padding: 10px;
+}
+/*td{
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}*/
+th{
+	background: #999;
+}

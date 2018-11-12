@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="envents.js"></script>
+</head>
+<body>
+	<div id="sanpham">
+		<div class="hang">
+			<img src="sp1.png">
+			<h4 class="tensp">Sản phẩm 1</h4>
+			<p class="tien" id="gia1">10000</p>
+			<button class="btnmua" onclick="muahang(1)">mua hàng</button>
+		</div>
+		<div class="hang">
+			<img src="sp1.png">
+			<h4 class="tensp">Sản phẩm 2</h4>
+			<p class="tien">15000</p>
+			<button class="btnmua" onclick="muahang(2)">mua hàng</button>
+		</div>
+	</div>
+	<div id="giohang">
+		<h2>Giỏ hàng</h2>
+		<table id="tblGio">
+			<tr>
+				<th>Tên SP</th>
+				<th>SL</th>
+				<th>Giá</th>
+				<th>Thành tiền</th>
+				<th> </th>
+			</tr>
+			<tr>
+				<td id="sp1">Sản phẩm 1</td>
+				<td><input id="sl1" type="number" min="0" value="3" onclick="kiemTraMua(1)"></td>
+				<td id="gia1">10000</td>
+				<td id="tt1">30000</td>
+				<td> <a href="#" id="delete1" onclick="xoaSP(this)" class="delete"> x </a> </td>
+			</tr>
+			<tr>
+				<td id="sp2">Sản phẩm 2</td>
+				<td><input min="0" type="number" value="2" id="sl2" onclick="kiemTraMua(2)"></td>
+				<td id="gia2">15000</td>
+				<td id="tt2">30000</td>
+				<td> <a href="#" id="delete2" onclick="xoaSP(this)" class="delete"> x </a> </td>
+			</tr>
+			<tr>
+				<td>Tổng tiền</td>
+				<td></td>
+				<td></td>
+				<td id="ttTong">60000</td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -12,7 +12,7 @@ function muahang($id) {
 	    var c5 = row.insertCell(4);
 	    c1.innerHTML = "Sản phẩm 1";
 	    c1.id = "sp1";
-	    c2.innerHTML = "<input id='sl1' type='number' min='0' value='1' onclick='kiemTraMua(1)'>";
+	    c2.innerHTML = "<input id='sl1' type='number' min='0' value='0' onclick='kiemTraMua(1)'>";
 	    c3.innerHTML = "10000";
 	    c3.id = "gia1";
 	    c4.innerHTML = "10000";
@@ -31,7 +31,7 @@ function muahang($id) {
 	    var c5 = row.insertCell(4);
 	    c1.innerHTML = "Sản phẩm 2";
 	    c1.id = "sp2";
-	    c2.innerHTML = "<input id='sl2' type='number' min='0' value='1' onclick='kiemTraMua(2)'>";
+	    c2.innerHTML = "<input id='sl2' type='number' min='0' value='0' onclick='kiemTraMua(2)'>";
 	    c3.innerHTML = "15000";
 	    c3.id = "gia2";
 	    c4.innerHTML = "15000";

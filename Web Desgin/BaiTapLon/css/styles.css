@@ -1,3 +1,4 @@
+/*http://localhost/BaiTapLon*/
 *{
 	padding: 0;
 	margin: 0;
@@ -54,6 +55,7 @@
 #account{
 	padding-top: 10px;
 	text-align: center;
+	overflow: auto;
 }
 .btn-login{
 	background: #00695c;
@@ -106,6 +108,7 @@
 	padding-left: 10px;
 }
 #the-loai a{
+	text-transform: capitalize;
 	display: block;
 	padding: 5px;
 	border-bottom: 1px solid #999;
@@ -156,12 +159,56 @@
 }
 /*Footer*/
 #footer{
-	background: #000;
+	background: #f0f0f0;
 	text-align: center;
-	color: #fff;
+	color: #00695c;
 	padding: 10px 0px;
 }
 /*DANG NHAP HE THONG*/
+#login, #register{
+	background: #f0f0f0;
+	padding: 50px 100px 100px 100px;
+	border-radius: 10px;
+}
+#login h1, #register h1{
+	margin-bottom: 20px;
+	color: #00695c !important;
+}
+#login input[type="text"], #login input[type="password"],
+#register input[type="text"], #register input[type="password"]{
+	padding: 2px 10px;
+	border-radius: 5px;
+}
+#login input[type="submit"], #register input[type="submit"]{
+	padding: 5px;
+	background: #00695c;
+	font-weight: bold;
+	border-radius: 5px;
+	color: #fff;
+}
+/*DANG KY TAI KHOAN*/
 #night-light{
 	margin-left: 20px;
+}
+/*STYLE PAGE*/
+h2.title{
+	color: #00695c;
+}
+#info p{
+	color: #fff;
+}
+#info p > b{
+	color: #0d47a1;
+}
+#caption h2, #chap h2{
+	color: #0d47a1;
+}
+#caption p{
+	color: #fff;
+}
+#chap th{
+	color: #00695c;
+}
+#chap td{
+	color: #fff;
 }

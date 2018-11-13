@@ -3,21 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>2SMTC - Đăng ký tài khoản</title>
-	<link id="style" rel="stylesheet" href="css/styles-dark.css">
+	<link id="style" rel="stylesheet" href="">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/envents.js"></script>
 	<style type="text/css">
+	html{
+		background: url(images/bg/bg03.jpg);
+		background-size: cover;
+	}
 		body{
 			width: 500px;
 			margin: 10% auto;
-			background: #111 !important;
 			text-align: center;
+			border-radius: 10px;
 		}
 	</style>
 </head>
-<body>
+<body onload="checkCookie()">
 	<div id="register">
 		<form onsubmit="dangKy()" method="post">
 			<h1>Đăng ký</h1>

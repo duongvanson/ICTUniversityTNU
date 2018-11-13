@@ -1,10 +1,58 @@
+//Dong gop
+function dongGop() {
+	alert("Chức năng đang được bảo trì và nâng cấp");
+}
 function changeStyle() {
+	var x = document.cookie;
+	x = x.substring(6);
+	if (x == "dark") {
 		document.getElementById("style").href="css/styles.css";
+		document.cookie="theme=light;expires=Wed, 18 Dec 2023 12:00:00 GMT";
+	}else {
+		document.getElementById("style").href="css/styles-dark.css";
+		document.cookie="theme=dark;expires=Wed, 18 Dec 2023 12:00:00 GMT";
+	}
 		}
 // Onload check cookie
 function checkCookie() {
-	document.cookie="firstname=John;expires=Wed, 18 Dec 2023 12:00:00 GMT"
+	if (document.cookie == "") {
+		document.getElementById("style").href="css/styles.css";
+		document.cookie="theme=light;expires=Wed, 18 Dec 2023 12:00:00 GMT";
+	}else {
+		var x = document.cookie;
+		x = x.substring(6);
+		if (x == "dark") {
+			document.getElementById("style").href="css/styles-dark.css";
+		}else {
+			document.getElementById("style").href="css/styles.css";
+		}
+	}
 }
+function checkCookieTheLoai() {
+	if (document.cookie == "") {
+		document.getElementById("style").href="../css/styles.css";
+		document.cookie="theme=light;expires=Wed, 18 Dec 2023 12:00:00 GMT";
+	}else {
+		var x = document.cookie;
+		x = x.substring(6);
+		if (x == "dark") {
+			document.getElementById("style").href="../css/styles-dark.css";
+		}else {
+			document.getElementById("style").href="../css/styles.css";
+		}
+	}
+}
+function changeStyleTheLoai() {
+	var x = document.cookie;
+	x = x.substring(6);
+	if (x == "dark") {
+		document.getElementById("style").href="../css/styles.css";
+		document.cookie="theme=light;expires=Wed, 18 Dec 2023 12:00:00 GMT";
+	}else {
+		document.getElementById("style").href="../css/styles-dark.css";
+		document.cookie="theme=dark;expires=Wed, 18 Dec 2023 12:00:00 GMT";
+	}
+		}
 //Dang nhap he thong
 function dangNhap() {
 	var username = document.getElementById('username').value;

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2STMC - Đọc truyện tranh hay nhất</title>
+	<link id="style" rel="stylesheet" href="../css/styles-dark.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/envents.js"></script>
+</head>
+<body onload="checkCookieTheLoai()">
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="../index.html">
+						<h2 class="logo">2STMC</h2>
+						<p class="s-logo">Đọc truyện tranh online</p>
+					</a>
+				</div>
+				<div id="menu" class="col-md-6">
+					<a href="#new">Truyện mới</a>
+					<a href="#hot">Truyện nổi bật</a>
+					<a href="#the-loai">Thể loại</a>
+					<a href="#">Tác giả</a>
+					<a onclick="dongGop()" href="#">Đóng góp</a>
+					<div id="search">
+						<form action="#">
+							<input class="timKiem" type="text" name="timKiem" placeholder="Nhập tên truyện, tác giả...">
+							<input type="submit" name="btnTimKiem" value="Tìm kiếm" class="btnTimKiem">
+						</form>
+					</div>
+				</div>
+				<div id="account" class="col-md-3">
+					<a href="../dang-nhap.html" class="btn-login">Đăng nhập</a>
+					<a href="../dang-ky.html" class="btn-reg">Đăng ký</a>
+					<a href="#" id="night-light" onclick="changeStyleTheLoai()"><img src="../images/21-moon-night-many-clouds-icon.png"></a>
+					<hr>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</div>
+	<div id="main">
+		<div class="container">
+			<h2 class="mn-title">Thể loại: Manga</h2>
+			<div class="row">
+				<div class="post col-md-3">
+								<a href="#"><img src="../truyen/judas-chuyen/mcith_judas.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Judas Truyện</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-3">
+								<a href="#"><img src="../truyen/ong-ke-sau-6h/mcith_00_ong_k.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Ông kẹ sau 6 giờ</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-3">
+								<a href="#"><img src="../truyen/metal-gear/logo.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Metal Gear</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-3">
+								<a href="#"><img src="../truyen/hoa-hong-niem/logo.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Hoa Hồng Niêm</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="post col-md-3">
+								<a href="#"><img src="../truyen/dong-phuong/mcith_DongPhuongBatBai.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Đông phương bất bại</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+							<div class="post col-md-3">
+								<a href="../truyen/hard-core.html"><img src="../truyen/hard-core/CPeO_O5UEAA6RmN.jpg" alt="" class="img-fluid"></a>
+								<a href="#"><p class="title-post">Hard Core</p></a>
+								<ul>
+									<li><a href="#">Chap 12</a></li>
+									<li><a href="#">Chap 13</a></li>
+								</ul>
+								<p class="vote">Điểm: <span>9.6</span></p>
+							</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Copyright &copy 2SMTC - 2018</p>
+	</div>
+</body>
+</html>

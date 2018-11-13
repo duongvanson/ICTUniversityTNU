@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>2STMC - Đọc truyện tranh hay nhất</title>
 	<link id="style" rel="stylesheet" href="css/styles-dark.css">
@@ -12,20 +13,20 @@
 <body onload="checkCookie()">
 	<!-- HEADING -->
 	<div id="header">
-		<div class="container">
+		<div class="">
 			<div class="row">
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-12">
 					<a href="#">
 						<h2 class="logo">2STMC</h2>
 						<p class="s-logo">Đọc truyện tranh online</p>
 					</a>
 				</div>
-				<div id="menu" class="col-md-6">
+				<div id="menu" class="col-md-6 col-sm-12">
 					<a href="#new">Truyện mới</a>
 					<a href="#hot">Truyện nổi bật</a>
 					<a href="#the-loai">Thể loại</a>
 					<a href="#">Tác giả</a>
-					<a href="#">Đóng góp</a>
+					<a onclick="dongGop()" href="#">Đóng góp</a>
 					<div id="search">
 						<form action="#">
 							<input class="timKiem" type="text" name="timKiem" placeholder="Nhập tên truyện, tác giả...">
@@ -33,10 +34,12 @@
 						</form>
 					</div>
 				</div>
-				<div id="account" class="col-md-3">
+				<div id="account" class="col-md-3 col-sm-12">
 					<a href="dang-nhap.html" class="btn-login">Đăng nhập</a>
 					<a href="dang-ky.html" class="btn-reg">Đăng ký</a>
-					<a href="#" id="night-light" onclick="changeStyle()"><img src="images/21-moon-night-many-clouds-icon.png"></a>
+					<div style="	margin-top: 10px !important;
+">
+					<a href="#" id="night-light" onclick="changeStyle()"><img src="images/21-moon-night-many-clouds-icon.png"></a></div>
 					<hr>
 				</div>
 			</div>
@@ -85,7 +88,7 @@
 						<h2 class="mn-title">Thể loại</h2>
 						<ul>
 							<li><a href="#">Truyện việt nam</a></li>
-							<li><a href="#">Manga</a></li>
+							<li><a href="the-loai/manga.html">Manga</a></li>
 							<li><a href="#">Kinh dị</a></li>
 							<li><a href="#">Kỳ bí</a></li>
 							<li><a href="#">Viễn tưởng</a></li>
@@ -130,7 +133,7 @@
 								<p class="vote">Điểm: <span>5.6</span></p>
 							</div>
 							<div class="post col-md-4">
-								<a href="#"><img src="truyen/hard-core/CPeO_O5UEAA6RmN.jpg" alt="" class="img-fluid"></a>
+								<a href="truyen/hard-core.html"><img src="truyen/hard-core/CPeO_O5UEAA6RmN.jpg" alt="" class="img-fluid"></a>
 								<a href="#"><p class="title-post">Hard Core</p></a>
 								<ul>
 									<li><a href="#">Chap 12</a></li>
@@ -200,7 +203,7 @@
 								<p class="vote">Điểm: <span>9.6</span></p>
 							</div>
 							<div class="post col-md-4">
-								<a href="#"><img src="truyen/hard-core/CPeO_O5UEAA6RmN.jpg" alt="" class="img-fluid"></a>
+								<a href="truyen/hard-core.html"><img src="truyen/hard-core/CPeO_O5UEAA6RmN.jpg" alt="" class="img-fluid"></a>
 								<a href="#"><p class="title-post">Hard Core</p></a>
 								<ul>
 									<li><a href="#">Chap 12</a></li>

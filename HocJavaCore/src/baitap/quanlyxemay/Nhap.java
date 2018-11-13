@@ -42,7 +42,7 @@ public class Nhap {
 					scn = new Scanner(System.in);
 					number = scn.nextInt();
 					if(number <= 0)
-						System.out.println("Nam san xuat > 0");
+						System.out.println("Nam san xuat > 1000");
 					if(number >= 2019)
 						System.out.println("Nam san xuat < 2019");
 				} catch (Exception e) {
@@ -51,7 +51,7 @@ public class Nhap {
 					System.out.print("\tNhap lai: ");
 					// TODO: handle exception
 				}
-			}while(number <= 0 || number > 2018);
+			}while(number <= 1000 || number > 2018);
 			return number;
 		}
 		public static int nhapSL() {

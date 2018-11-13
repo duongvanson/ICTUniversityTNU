@@ -45,3 +45,6 @@ table,td,th{
 th{
 	background: #999;
 }
+input[type="number"]{
+	width: 70px;
+}

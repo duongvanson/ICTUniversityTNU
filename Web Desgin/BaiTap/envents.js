@@ -41,7 +41,7 @@ function muahang($id) {
 	}
 	var x = parseInt(document.getElementById("sl"+$id).value)+1;
 	document.getElementById('sl'+$id).value = x;
-	var gia = parseInt(document.getElementById("gia1").innerHTML);
+	var gia = parseInt(document.getElementById("gia"+$id).innerHTML);
 	document.getElementById("tt"+$id).innerHTML = (gia * x);
 	tongTien();
 }

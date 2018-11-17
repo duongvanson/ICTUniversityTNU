@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-family:  sans-serif;
+}
+body{
+	background: #E1DFDF;
+}
+header{
+	text-align: center;
+	padding: 24px 48px;
+}
+header p{
+	margin: 15px 0px;
+}
+section{
+	width: 70%;
+}
+aside{
+	width: 30%;
+}
+section,aside{
+	float:left;
+	min-height: 500px;
+}
+article,.subside{
+	width: 95%;
+	margin: 24px auto;
+	background: #fff;
+	box-shadow: 0px 2px 5px 2px grey;
+}
+article img, .subside img{
+	width: 100%;
+}
+footer{
+	clear: both;
+	text-align: center;
+	background: #222;
+	padding: 20px 40px;
+}
+h2,h3,.caption,button{
+	margin: 10px;
+}
+button{
+	padding: 10px;
+}
+article span{
+	opacity: 0.5;
+}

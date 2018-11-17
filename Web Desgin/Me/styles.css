@@ -1,0 +1,177 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 16px;
+}
+body{
+	background: #000;
+}
+a{
+	text-decoration: none;
+}
+#side{
+	float: left;
+	width: 10%;
+	text-align: center;
+	background: #222;
+	height: 100%;
+	position: fixed;
+}
+#side a{
+	color: #fff;
+	padding: 12px 24px;
+	display: block;
+}
+#side a:hover{
+	background: #000;
+}
+.me{
+	width: 100%;
+}
+#side .me{
+	opacity: 0.5;
+}
+.active{
+	background: #000;
+}
+#side a img{
+	width: 32px;
+	margin: 5px;
+}
+/*CONTENT*/
+#content{
+	color: #fff;
+	width: 90%;
+	padding-top: 50px;
+	padding-left: 10%;
+	margin: 0 auto;
+}
+#home{
+	text-align: center;
+}
+#home h1{
+	font-size: 350%;
+	font-weight: normal;
+}
+#home p{
+	margin: 20px;
+}
+#home,#about{
+	margin: 15px 0px;
+}
+h2, h3,hr{
+	margin: 30px 0px;
+	font-weight: normal;
+}
+h2{
+	font-size: 200%;
+}
+h3{
+	font-size: 150%;
+}
+hr{
+	width: 30%;
+}
+#about p, #blog p{
+	margin: 10px 0px;
+	text-align: justify;
+}
+.process{
+	width: 100%;
+	background: #fff;
+	height: 25px;
+}
+.subprocess{
+	background: gray;
+	height: 25px;
+}
+#web{
+	width: 65%;
+}
+#php{
+	width: 50%;
+}
+#csharp{
+	width: 80%;
+}
+#pts{
+	width: 30%;
+}
+#nn{
+	width: 35%;
+}
+/*Blog*/
+#blog a{
+	padding: 20px;
+	background: #222;
+	color: #fff;
+	border-radius: 5px;
+}
+/*Contact*/
+#contact p{
+	margin: 20px 0px;
+}
+/*Footer*/
+#footer p{
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid grey;
+}
+/********/
+p.social{
+	text-align: center;
+	padding: 0;
+	margin: 0px !important;
+}
+p.social a{
+	margin-right: 10px;
+	overflow: hidden;
+}
+p.social a:hover img{
+	background: #031233;
+}
+/*Media*/
+@media only screen and (max-width: 768px) {
+	#side,#content{
+		width: 100%;
+		height: auto;
+	}
+	#content{
+		padding:0px 10px;
+		margin-top: 50px;
+	}
+	#side br{
+		display: none;
+	}
+	#side{
+		float: none;
+		background: #222;
+		position: fixed;
+		top: 0;
+	}
+	#side .me, #side img{
+		display: none;
+	}
+	#side a{
+		display: inline-block;
+		float:left;
+	}
+	#home img{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 400px) {
+	#content{
+		margin-top: 100px;
+	}
+	#home img{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 400px) {
+	#home img{
+		width: 100%;
+	}
+}

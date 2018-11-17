@@ -43,7 +43,9 @@ public class XeMay {
 	public XeMay() {
 		
 	}
-	
+	public XeMay(String tenXe) {
+		this.tenXe = tenXe;
+	}
 	public void nhapXe() {
 		System.out.print("Ten xe: ");
 		tenXe = Nhap.nhapText();

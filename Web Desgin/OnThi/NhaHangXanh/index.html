@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Nhà Hàng Xanh</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="events.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Nhà hàng xanh</h1>
+			<div id="logo">
+				<img src="logo.jpg" alt="logo" id="mainlogo" onclick="xemTT(true)">
+				<div id="info" onclick="xemTT(false)">
+					<p>Hotline: 0902226224; Email: sales@phuchungthinh.vn</p>
+					<p>Facebook: <a href="#">Ngon Garden</a></p>
+					<p>Website: Ngongarden.com</p>
+				</div>
+			</div>
+			<div id="additem">
+				<label>Món ăn: </label><input type="text" name="monan" id="monan" placeholder="Nhập tên sản phẩm"><br>
+				<label>Số lượng: </label><input type="text" name="soluong" id="soluong" placeholder="Nhập số lượng sản phẩm"><br>
+				<label>Gía tiền: </label><input type="text" name="giatien" id="giatien" > VNĐ<br>
+				<label></label><button onclick="them()">Add item</button>
+			</div>
+		</div>
+		<table id="giohang">
+			<tr>
+				<th>Món ăn</th>
+				<th>Số lượng</th>
+				<th>Gía tiền</th>
+				<th>Tổng tiền</th>
+				<th>Delete</th>
+			</tr>
+			<tr>
+				<td>Phở</td>
+				<td><input type="number" name="sl" class="sluong" value="2" onclick="thayDoi(this)" min="0" /></td>
+				<td class="gia">40000</td>
+				<td class="thanhtien">80000</td>
+				<td><a href="#" onclick="xoaSP(this)">X</a></td>
+			</tr>
+			<tr>
+				<td colspan="3">Tổng hóa đơn: </td>
+				<td id="tongtien">80000</td>
+			</tr>
+		</table>
+	</body>
+</html>

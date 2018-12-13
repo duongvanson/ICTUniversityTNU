@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="event.js"></script>
+	</head>
+	<body>
+		<p>Giỏ hàng có <span id="sum">3</span> sản phẩm</p>
+		<table>
+			<tr>
+				<td>
+					<img src="" alt="Image">
+				</td>
+				<td>
+					<p>Sản phẩm 1<br><span id="gia1">100000</span></p>
+				</td>
+				<td>
+					<button onclick="fnGiam(1)">&#x0074;</button>
+					<input type="number" name="sp1" value="2" id="sl1" class="ipsl">
+					<button onclick="fnTang(1)">&#x0075;</button>
+				</td>
+				<td>
+					<input type="text" name="giaTong1" value="200000" class="ipgia" id="giaTong1">
+				</td>
+				<td>
+					<a href="#" id="xoa1" class="xoa">X</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="" alt="Image">
+				</td>
+				<td>
+					<p>Sản phẩm 2<br><span id="gia2">200000</span></p>
+				</td>
+				<td>
+					<button onclick="fnGiam(2)">&#x0074;</button>
+					<input type="number" name="sp2" value="1" id="sl2" class="ipsl" onclick="fnTangGiam(2)">
+					<button onclick="fnTang(2)">&#x0075;</button>
+				</td>
+				<td>
+					<input type="text" name="giaTong2" value="200000" class="ipgia" id="giaTong2">
+				</td>
+				<td>
+					<a href="#" id="xoa2" class="xoa">X</a>
+				</td>
+			</tr>
+			<tr id="trlast">
+				<td>Tổng tiền</td>
+				<td></td>
+				<td></td>
+				<td><input type="text" name="tongTien" value="300000" class="ipgia" id="tongTien"></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>

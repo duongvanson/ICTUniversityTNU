@@ -6,9 +6,10 @@ public class Nhap {
 		static Scanner scn = new Scanner(System.in);
 		public static String nhapText() {
 			String text = "";
-			do {
+			do {//
 				scn = new Scanner(System.in);
 				text = scn.nextLine();
+				//
 				text = text.trim();
 				if (text.isEmpty()) {
 					System.out.println("Khong duoc de trong.");
@@ -16,6 +17,7 @@ public class Nhap {
 				}
 			} while (text.isEmpty());
 			return text;
+			
 		}
 		public static int nhapInt() {
 			int number= 0;
@@ -23,8 +25,7 @@ public class Nhap {
 			do {
 				try {
 					scn = new Scanner(System.in);
-					
-					number = scn.nextInt();
+					number = scn.nextInt();//loi
 					check = true;
 				} catch (Exception e) {
 					check = false;
@@ -40,11 +41,12 @@ public class Nhap {
 			do {
 				try {
 					scn = new Scanner(System.in);
-					number = scn.nextInt();
+					number = scn.nextInt();//loi
+					
 					if(number < 0)
 						System.out.println("So luong > 0\nNhap lai");
 				} catch (Exception e) {
-					number = -1;
+					number = -32;
 					System.out.println("Dau vao khong hop le.");
 					System.out.print("\tNhap lai: ");
 					// TODO: handle exception

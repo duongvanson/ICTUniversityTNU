@@ -1,0 +1,47 @@
+input[type="number"] {
+/*  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;*/
+    width: 100px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+button{
+	font-family: "Wingdings 3";
+		background: #fff;
+	border: none;
+	font-size: 18px;
+}
+input.ipsl,button{
+	width: 30px;
+	padding: 5px;
+}
+input.ipgia{
+	width: 100px;
+	padding: 5px;
+}
+table{
+	border-collapse:collapse;
+}
+.xoa{
+	background: gray;
+	border-radius:50%;
+	padding: 2px;
+	text-decoration:none;
+	color:white;
+}
+td{
+	padding:5px;
+}
+img{
+	text-align:center;
+	display: block;
+	width: 100%;
+	height: 80px;
+	border:1px solid gray;
+}
+#trlast{
+	border-top: 1px solid #000;
+}

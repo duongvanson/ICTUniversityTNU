@@ -1,7 +1,7 @@
 package trenlophoc.vanban;
 
 import java.util.Scanner;
-
+import java.lang.Character;
 public class VanBan {
 	private String soucre;
 	public VanBan() {}
@@ -45,10 +45,24 @@ public class VanBan {
 			}
 		}
 		soucre = sc.toString();
+		
+	}
+	public void upCase() {
+		soucre = soucre.trim();
+		StringBuffer sc = new StringBuffer(soucre);
+		for (int i = 0; i < sc.length(); i++) {
+			if(sc.charAt(i) == ' ' && sc.charAt(i+1) != ' ') {
+				if(sc.charAt(i+1)>'a' && sc.charAt(i+1)<'z')
+					sc.setCharAt(i+1,(char)((int)(sc.charAt(i+1))-32));
+			}
+		}
+		if(sc.charAt(0)>'a' && sc.charAt(0)<'z')
+			sc.setCharAt(0,(char)((int)(sc.charAt(0))-32));
+		soucre = sc.toString();
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		VanBan vb = new VanBan("   DUONG   VAN   SON  ");
+		VanBan vb = new VanBan("   duong  van   son  ");
 		
 //		Scanner scn = new Scanner(System.in);
 //		vb.setSoucre(scn.nextLine());
@@ -59,6 +73,8 @@ public class VanBan {
 			System.out.println(str);
 			System.out.println(vb.demTu());
 			System.out.println(vb.EndChar("G"));
+			vb.upCase();
+			System.out.println(vb.soucre);
 		}else {
 			System.out.println("Chuoi vao rong!");
 		}

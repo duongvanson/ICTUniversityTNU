@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+body{
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+select{
+	width: 200px;
+}
+p{
+	margin: 5px 0px;
+}
+#view{
+	margin-bottom: 20px;
+	overflow: auto;
+}
+#product{
+	float: left;
+	width: 50%;
+	height: auto;
+	text-align: center;
+}
+#product img{
+	width: 50%;
+}
+table{
+	clear: left;
+	border-collapse:collapse;
+	width: 100%;
+}
+table,th,tr,td{
+	border: 1px solid #000;
+}
+th{
+	background: green;
+}
+#sl{
+	width: 50px;
+}
+#btnAdd{
+	padding: 5px;
+	background: #f00;
+	color: #fff;
+}

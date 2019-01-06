@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<DANHSACH>
+	<NhanVien>
+		<HoTen></HoTen>
+		<DiaChi></DiaChi>
+		<NgaySinh></NgaySinh>
+		<DienThoai></DienThoai>
+	</NhanVien>
+	<NhanVien>
+		<HoTen></HoTen>
+		<DiaChi></DiaChi>
+		<NgaySinh></NgaySinh>
+		<DienThoai></DienThoai>
+	</NhanVien>
+	<NhanVien>
+		<HoTen></HoTen>
+		<DiaChi></DiaChi>
+		<NgaySinh></NgaySinh>
+		<DienThoai></DienThoai>
+	</NhanVien>
+</DANHSACH>

@@ -1,3 +1,11 @@
+window.onscroll = function() {
+    if(window.scrollY >= 50){
+    	document.getElementById('footer').style.position = "fixed";
+    }
+    if(window.scrollY == 0){
+    	document.getElementById('footer').style.position = "";
+    }
+};
 function chonmau(mau) {
 	var lc = mau.className;
 	if (!lc.includes("activecolor")) {

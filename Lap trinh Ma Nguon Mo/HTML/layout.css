@@ -14,7 +14,7 @@ p{
 	align-items: center;
 }
 body{
-	width: 750px;
+	width: 748px;
 	height: 950px;
 	margin: 20px auto;
 }
@@ -50,11 +50,8 @@ body{
 	height: 150px;
 	clear: left;
 }
-#header, #left,#right, #view, #footer{
-	/*display: table-cell;
-	vertical-align: middle;*/
-}
-div#topbar {
+/*MENU 2 CAP THUONG*/
+/*div#topbar {
     background: purple;
     height: 40px;
     width: 720px;
@@ -86,18 +83,36 @@ ul.sub{
 }
 ul.sub li{
 	width: 100px;
+}*/
+/*END MENU 2 CAP THUONG*/
+/*MEGA MENU*/
+ul.menu{
+    list-style-type: none;
+    line-height: 40px;
+}
+ul.menu li{
+	display: inline-block;
+	padding: 0px 10px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+ul.menu li:hover{
+	background: #fff;
+	color: green;
 }
 div#mega{
 	background: green;
     height: 40px;
-    width: 750px;
+    width: 748px;
     position: fixed;
     top: 0px;
 }
-.menup{
-	position: relative;
+.menup:hover .megasub{
+	display: block;
 }
 .megasub{
+	display: none;
 	background: green;
 	width: 750px;
 	left: 0px;
@@ -105,4 +120,15 @@ div#mega{
 }
 .tab{
 	float: left;
+	width: 25%;
 }
+ul.menutab li{
+	display: inline-block;
+	width: 100%;
+}
+.imgtab{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+/*END MEGA MENU*/

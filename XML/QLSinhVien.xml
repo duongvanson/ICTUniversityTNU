@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE QLSV[
+<!ELEMENT QLSV (SV)*>
+<!ELEMENT SV (TTSV, TTDiem*)>
+<!ELEMENT TTSV (HoTen, Lop)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT Lop (#PCDATA)>
+<!ELEMENT TTDiem (TenMon, STC, Diem)>
+<!ELEMENT TenMon (#PCDATA)>
+<!ELEMENT STC (#PCDATA)>
+<!ELEMENT Diem (#PCDATA)>
+<!ATTLIST TTSV MaSV ID #REQUIRED>
+<!ATTLIST TTDiem MaMon ID #REQUIRED>
+]>
+<QLSV>
+	<SV>
+		<TTSV MaSV="DTC01">
+			<HoTen>Duong A</HoTen>
+			<Lop>15A</Lop>
+		</TTSV>
+		<TTDiem MaMon="M01">
+			<TenMon>ABC</TenMon>
+			<STC>3</STC>
+			<Diem>8</Diem>
+		</TTDiem>
+		<TTDiem MaMon="M02">
+			<TenMon>DEF</TenMon>
+			<STC>2</STC>
+			<Diem>7</Diem>
+		</TTDiem>
+	</SV>
+</QLSV>

@@ -65,4 +65,9 @@ public class TestMain extends Applet{
 		pnl.add(btn);
 		this.add(pnl);
 	}
+	@Override
+	public void showStatus(String arg0) {
+		// TODO Auto-generated method stub
+		arg0 = "Status";
+	}
 }

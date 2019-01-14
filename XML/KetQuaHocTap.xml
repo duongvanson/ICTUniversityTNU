@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE KQHT[
+<!ELEMENT KQHT (NamHoc, SinhVien, Mons*, HocLuc, HanhKiem, GVCN)>
+<!ELEMENT NamHoc (#PCDATA)>
+<!-- SINH VIEN	-->
+<!ELEMENT SinhVien (HoTen, NgaySinh, Lop)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT NgaySinh (#PCDATA)>
+<!ELEMENT Lop (#PCDATA)>
+<!-- MON HOC -->
+<!ELEMENT Mons (STT, TenMon, HocKyI, HocKyII, CaNam)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT NamHoc (#PCDATA)>
+]>

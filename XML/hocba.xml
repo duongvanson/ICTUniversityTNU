@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE HocBa SYSTEM "hocba.dtd">
+<HocBa>
+<!--<HocBa xmlns="hb"
+				xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				xs:schemaLocation="hd C:\Users\dvson\Desktop\ICTUniversityTNU\XML\hocba.xsd">-->
+	<HoTen>Duong Van Son</HoTen>
+	<NgaySinh>03/01/1998</NgaySinh>
+	<NamHoc number="2016">
+		<Lop>KTPM</Lop>
+		<HocLuc>TOT</HocLuc>
+		<HanhKiem>TOT</HanhKiem>
+		<GVCN>Nguyen Lan Oanh</GVCN>
+		<Mons>
+			<Mon mamon="m01">
+				<STT>1</STT>
+				<TenMon>XML</TenMon>
+				<HocKyI>5</HocKyI>
+				<HocKyII>5</HocKyII>
+				<CaNam>5</CaNam>
+			</Mon>
+			<Mon mamon="m02">
+				<STT>1</STT>
+				<TenMon>Ung Dung</TenMon>
+				<HocKyI>5</HocKyI>
+				<HocKyII>5</HocKyII>
+				<CaNam>5</CaNam>
+			</Mon>
+		</Mons>
+	</NamHoc>
+	<NamHoc number="2017">
+		<Lop>KTPM</Lop>
+		<HocLuc>TOT</HocLuc>
+		<HanhKiem>TOT</HanhKiem>
+		<GVCN>Nguyen Lan Oanh</GVCN>
+		<Mons>
+			<Mon mamon="m03">
+				<STT>1</STT>
+				<TenMon>XML</TenMon>
+				<HocKyI>5</HocKyI>
+				<HocKyII>5</HocKyII>
+				<CaNam>5</CaNam>
+			</Mon>
+			<Mon mamon="m04">
+				<STT>1</STT>
+				<TenMon>Ung Dung</TenMon>
+				<HocKyI>5</HocKyI>
+				<HocKyII>5</HocKyII>
+				<CaNam>5</CaNam>
+			</Mon>
+		</Mons>
+	</NamHoc>
+</HocBa>

@@ -1,0 +1,19 @@
+<!ELEMENT KQHT (NamHoc, SinhVien, Mons*, HocLuc, HanhKiem, GVCN)>
+<!ELEMENT NamHoc (#PCDATA)>
+<!-- SINH VIEN	-->
+<!ELEMENT SinhVien (HoTen, NgaySinh, Lop)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT NgaySinh (#PCDATA)>
+<!ELEMENT Lop (#PCDATA)>
+<!-- MON HOC -->
+<!ELEMENT Mons (STT, TenMon, HocKyI, HocKyII, CaNam)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT TenMon (#PCDATA)>
+<!ELEMENT HocKyI (#PCDATA)>
+<!ELEMENT HocKyII (#PCDATA)>
+<!ELEMENT CaNam (#PCDATA)>
+<!-- Hoc Luc -->
+<!ELEMENT HocLuc (#PCDATA)>
+<!ELEMENT HanhKiem (#PCDATA)>
+<!-- GV -->
+<!ELEMENT GVCN (#PCDATA)>

@@ -1,14 +1,27 @@
 <?xml version="1.0"?>
-<!DOCTYPE KQHT[
-<!ELEMENT KQHT (NamHoc, SinhVien, Mons*, HocLuc, HanhKiem, GVCN)>
-<!ELEMENT NamHoc (#PCDATA)>
-<!-- SINH VIEN	-->
-<!ELEMENT SinhVien (HoTen, NgaySinh, Lop)>
-<!ELEMENT HoTen (#PCDATA)>
-<!ELEMENT NgaySinh (#PCDATA)>
-<!ELEMENT Lop (#PCDATA)>
-<!-- MON HOC -->
-<!ELEMENT Mons (STT, TenMon, HocKyI, HocKyII, CaNam)>
-<!ELEMENT STT (#PCDATA)>
-<!ELEMENT NamHoc (#PCDATA)>
-]>
+<!DOCTYPE KQHT SYSTEM "kqht.dtd">
+<KQHT>
+	<NamHoc>2019</NamHoc>
+	<SinhVien>
+		<HoTen>Duong Van Son</HoTen>
+		<NgaySinh>03/01/1998</NgaySinh>
+		<Lop>KTPM K15A</Lop>
+	</SinhVien>
+	<Mons>
+		<STT>1</STT>
+		<TenMon>XML</TenMon>
+		<HocKyI>5</HocKyI>
+		<HocKyII>5</HocKyII>
+		<CaNam>5</CaNam>
+	</Mons>
+	<Mons>
+		<STT>2</STT>
+		<TenMon>Va Ung Dung</TenMon>
+		<HocKyI>5</HocKyI>
+		<HocKyII>5</HocKyII>
+		<CaNam>5</CaNam>
+	</Mons>
+	<HocLuc>TOT</HocLuc>
+	<HanhKiem>TOT</HanhKiem>
+	<GVCN>Nguyen Lan Oanh</GVCN>
+</KQHT>

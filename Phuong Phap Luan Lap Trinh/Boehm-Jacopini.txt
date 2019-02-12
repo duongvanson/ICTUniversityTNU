@@ -1,0 +1,6 @@
+﻿- Sắp xếp n số nguyên tăng/giảm.
+- Chọn số lớn/nhỏ trong 3 số.
+- Nhập n số nguyên: tìm lớn/nhỏ nhất.
+- Sắp xếp tăng dãy số theo QuickSort.
+- Kiểm tra số nguyên tố.
+- Kiểm tra số chính phương.

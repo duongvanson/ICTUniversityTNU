@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+    margin: 0px auto;
+}
+header{
+    height: 100px;
+    background-color: darkcyan;
+}
+#logo{
+    float: left;
+}
+#giohang{
+    position: relative;
+    float: right;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    color: red;
+    font-weight: bold;
+}
+#logo,#giohang{
+    margin: 25px;
+}
+#side{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.chao{
+    color: blue;
+    font-size: 20px;
+    margin: 10px 0px;
+    border-bottom: 1px solid darkcyan;
+}
+#login label{
+    font-size: 20px;
+}
+input[type="text"],input[type="password"]{
+    padding: 5px;
+    margin: 5px 0px;
+}
+input[type="submit"]{
+    padding: 10px;
+    background-color: darkcyan;
+    border: 1px solid white;
+    color: white;
+}
+#sanpham,#muahang{
+    float: left;
+    width: 75%;
+    padding: 10px;
+}
+.sanpham{
+    overflow: auto;
+    margin: 10px;
+}
+.anhsanpham{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+.tensanpham{
+    margin-bottom: 5px;
+}
+.giasp{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.gia{
+    color: red;
+}
+.mota{
+    color: cornflowerblue;
+    padding: 5px;
+}
+.btnmua{
+    padding: 5px;
+    border: 1px solid white;
+    background: darkgoldenrod;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    clear: left;
+    background: darkcyan;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+/* MUA HANG */
+#muahang{
+    position: absolute;
+    display: none;
+    right: 0;
+    width: 650px;
+    background:whitesmoke;
+}
+#gio{
+    width: 100%;
+}
+td{
+    text-align: left;
+}
+.null{
+    display: none;
+}
+.xoa{
+    text-align: center;
+}

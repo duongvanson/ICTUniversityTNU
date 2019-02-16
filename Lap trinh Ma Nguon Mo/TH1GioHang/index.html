@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bán hàng</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="events.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="logo">VSond Shop</h1>
+            <button id="giohang" onclick="showhang()" onmouseover="show(1)" onmouseout="show(0)">
+                Giỏ hàng(<span id="soluongmua">0</span>)
+                <div id="muahang">
+                    <h2 id="null">Giỏ hàng chưa có gì hihi</h2>
+                    <table id="gio">
+                    </table>
+                </div>
+            </button>
+        </header>
+        <div id="main">
+            <div id="side">
+                <p class="chao">Chào, khách!</p>
+                <div id="login">
+                    <form action="#">
+                        <label for="#">Tên đăng nhập:</label><br>
+                        <input type="text" name="username" id="username"><br>
+                        <label for="#">Mật khẩu:</label><br>
+                        <input type="password" name="password" id="password">
+                        <br>
+                        <input type="submit" name="btnlogin" id="" value="Đăng nhập">
+                    </form>
+                </div>
+            </div>
+            <div id="sanpham">
+                <div class="sanpham" id="sp1">
+                    <img class="anhsanpham" src="images/sp1.jpg" alt="Sản phẩm 01">
+                    <h2 class="tensanpham">Sản phẩm 01</h2>
+                    <p class="mota">Mô tả sản phẩm 01</p>
+                    <p class="giasp">Giá: <span class="gia">100000</span></p>
+                    <button class="btnmua" onclick="muahang(this,1)">Thêm vào giỏ</button>
+                </div>
+                <div class="sanpham" id="sp2">
+                        <img class="anhsanpham" src="images/sp2.jpg" alt="Sản phẩm 01">
+                        <h2 class="tensanpham">Sản phẩm 02</h2>
+                        <p class="mota">Mô tả sản phẩm 02</p>
+                        <p class="giasp">Giá: <span class="gia">200000</span></p>
+                        <button class="btnmua" onclick="muahang(this,2)">Thêm vào giỏ</button>
+                </div>
+                <div class="sanpham" id="sp3">
+                        <img class="anhsanpham" src="images/sp3.jpg" alt="Sản phẩm 01">
+                        <h2 class="tensanpham">Sản phẩm 03</h2>
+                        <p class="mota">Mô tả sản phẩm 03</p>
+                        <p class="giasp">Giá: <span class="gia">300000</span></p>
+                        <button class="btnmua" onclick="muahang(this,3)">Thêm vào giỏ</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright Dương Văn Sơn</p>
+        </footer>
+    </body>
+</html>

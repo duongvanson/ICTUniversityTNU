@@ -39,20 +39,18 @@ function muahang(e, $id){
         "<h2>"+ten+"</h2>"+
         "<p>Giá: <span class='gia'>"+gia+"</span></p>"+
         "<p>Số lượng: <span class='sl'>1</span></p>";
-        xoa.innerHTML = "<a class='xoa' href='#' onclick='xoa(this,"+$id+")'>Xóa</a>";
+        xoa.innerHTML = "<a class='xoa' href='#' onclick='xoa(this)'>Xóa</a>";
         xoa.width="15%";
     }else{
-        var hang = idmua.parentNode;
-        var sl = parseInt(hang.querySelector('.sl').innerHTML);
-        hang.querySelector('.sl').innerHTML = sl+1;
+        var sl = parseInt(idmua.querySelector('.sl').innerHTML);
+        idmua.querySelector('.sl').innerHTML = sl+1;
     }
 }
-function xoa(e,$id){
+function xoa(e){
     var soluong = document.getElementById("soluongmua");
     var soluongmua = parseInt(soluong.innerHTML);
     var hang = e.parentNode.parentNode;
     var sl = parseInt(hang.querySelector('.sl').innerHTML);
     soluong.innerHTML = (soluongmua-sl) + "";
-
     document.getElementById("gio").deleteRow(hang.rowIndex);
 }

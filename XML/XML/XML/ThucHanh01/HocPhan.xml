@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE HocPhan SYSTEM "..\ThucHanh02\HocPhan.dtd">
+<HocPhan xmlns="http://tempuri.org/HocPhan.xsd">
+  <LopHocPhan>XML</LopHocPhan>
+  <HocKy>2</HocKy>
+  <NamHoc>2019-2020</NamHoc>
+  <SoTinChi>5</SoTinChi>
+  <DanhSachSinhVien>
+    <SinhVien ma_sinh_vien="dtc01">
+      <STT>1</STT>
+      <HoTen>Nguyen A</HoTen>
+      <NgaySinh>01/01/1996</NgaySinh>
+      <Lop>CNTT</Lop>
+      <ThuongXuyen>8</ThuongXuyen>
+      <Thi>8</Thi>
+      <TKHocPhan>8</TKHocPhan>
+      <DiemChu>B</DiemChu>
+    </SinhVien>
+    <SinhVien ma_sinh_vien="dtc02">
+      <STT>2</STT>
+      <HoTen>Nguyen B</HoTen>
+      <NgaySinh>01/01/1996</NgaySinh>
+      <Lop>CNTT</Lop>
+      <ThuongXuyen>9</ThuongXuyen>
+      <Thi>9</Thi>
+      <TKHocPhan>9</TKHocPhan>
+      <DiemChu>A</DiemChu>
+    </SinhVien>
+  </DanhSachSinhVien>
+</HocPhan>

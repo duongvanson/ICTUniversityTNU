@@ -1,0 +1,15 @@
+<!ELEMENT DSBN (BenhVien, NoiDung, Khoa*)>
+<!ELEMENT BenhVien (#PCDATA)>
+<!ELEMENT NoiDung (#PCDATA)>
+<!ELEMENT Khoa (DanhSachBenhNhan)>
+<!ELEMENT DanhSachBenhNhan (BenhNhan*)>
+<!ELEMENT BenhNhan (STT, HoTen, DiaChi, GioiTinh, NgayNhap, NgayDieuTri, TienTra)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT GioiTinh (#PCDATA)>
+<!ELEMENT NgayNhap (#PCDATA)>
+<!ELEMENT NgayDieuTri (#PCDATA)>
+<!ELEMENT TienTra (#PCDATA)>
+<!ATTLIST Khoa MaKhoa CDATA #REQUIRED>
+<!ATTLIST BenhNhan MaBenhAn CDATA #REQUIRED>

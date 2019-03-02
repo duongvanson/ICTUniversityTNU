@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BenhVien>
+  <Khoa makhoa="khoanoi" tenkhoa="Khoa Noi">
+    <DanhSachBenhNhan>
+      <BenhNhan maso="bn01">
+        <HoTen>Nguyen Van A</HoTen>
+        <DiaChi>Thai Nguyen</DiaChi>
+        <NgayNhap>02/02/2015</NgayNhap>
+        <SoNgayNamVien>15</SoNgayNamVien>
+      </BenhNhan>
+      <BenhNhan maso="bn02">
+        <HoTen>Nguyen Van B</HoTen>
+        <DiaChi>Thai Binh</DiaChi>
+        <NgayNhap>02/02/2014</NgayNhap>
+        <SoNgayNamVien>18</SoNgayNamVien>
+      </BenhNhan>
+    </DanhSachBenhNhan>
+  </Khoa>
+</BenhVien>

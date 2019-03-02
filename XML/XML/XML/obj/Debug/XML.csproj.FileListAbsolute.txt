@@ -1,0 +1,9 @@
+D:\GIT\ICTUniversityTNU\XML\XML\XML\bin\Debug\XML.exe.config
+D:\GIT\ICTUniversityTNU\XML\XML\XML\bin\Debug\XML.exe
+D:\GIT\ICTUniversityTNU\XML\XML\XML\bin\Debug\XML.pdb
+D:\GIT\ICTUniversityTNU\XML\XML\XML\obj\Debug\XML.csprojAssemblyReference.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XML\obj\Debug\XML.Properties.Resources.resources
+D:\GIT\ICTUniversityTNU\XML\XML\XML\obj\Debug\XML.csproj.GenerateResource.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XML\obj\Debug\XML.csproj.CoreCompileInputs.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XML\obj\Debug\XML.exe
+D:\GIT\ICTUniversityTNU\XML\XML\XML\obj\Debug\XML.pdb

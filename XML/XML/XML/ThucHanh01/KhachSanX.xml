@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<!DOCTYPE KhachSan SYSTEM "..\ThucHanh02\KhachSanX.dtd">-->
+<KhachSan xmlns="http://tempuri.org/KhachSanX.xsd">
+  <DiaChi>123 ABC</DiaChi>
+  <SDT>09747663445</SDT>
+  <BangThuePhong>
+    <Phong loai_phong="Loai A" don_gia="250000"/>
+    <Phong loai_phong="Loai B" don_gia="220000"/>
+    <Phong loai_phong="Loai C" don_gia="180000"/>
+    <Phong loai_phong="Dac biet" don_gia="340000"/>
+  </BangThuePhong>
+  <GhiChu>Nếu khách thuê quá 5 ngày được giảm 10%</GhiChu>
+</KhachSan>

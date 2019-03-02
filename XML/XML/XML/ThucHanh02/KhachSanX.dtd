@@ -1,0 +1,8 @@
+﻿<!ELEMENT KhachSan (DiaChi, SDT, BangThuePhong, GhiChu)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT SDT (#PCDATA)>
+<!ELEMENT BangThuePhong (Phong+)>
+<!ELEMENT GhiChu (#PCDATA)>
+<!ELEMENT Phong (#PCDATA)>
+<!ATTLIST Phong loai_phong CDATA #IMPLIED>
+<!ATTLIST Phong don_gia CDATA #IMPLIED>

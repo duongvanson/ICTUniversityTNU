@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KhachSanX"
+    targetNamespace="http://tempuri.org/KhachSanX.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/KhachSanX.xsd"
+    xmlns:mstns="http://tempuri.org/KhachSanX.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="KhachSan" type="K_KhachSan"/>
+    <xs:complexType name="K_KhachSan">
+      <xs:sequence>
+        <xs:element name="DiaChi" type="xs:string"/>
+        <xs:element name="SDT">
+          <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{10,11}"/>
+          </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        <xs:element name="BangThuePhong">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Phong" type="K_Phong" minOccurs="0" maxOccurs="100"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GhiChu" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  <xs:complexType name="K_Phong">
+    <xs:attribute name="loai_phong" type="xs:string"/>
+    <xs:attribute name="don_gia" type="xs:int"/>
+  </xs:complexType>
+</xs:schema>

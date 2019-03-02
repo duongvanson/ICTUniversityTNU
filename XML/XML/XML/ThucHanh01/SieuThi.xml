@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE SieuThi SYSTEM "..\ThucHanh02\SieuThi.dtd">
+<SieuThi xmlns="http://tempuri.org/SieuThi.xsd">
+  <TenSieuThi> DVS </TenSieuThi>
+  <DiaChi> Thai Nguyen </DiaChi>
+  <SoDT> 0354891155 </SoDT>
+  <Hang MaHang ="mh01">
+    <TenHang>Bimbim</TenHang>
+    <SoLuong>190</SoLuong>
+    <LoaiHang>Binh thuong</LoaiHang>
+    <DonGia>5000</DonGia>
+  </Hang>
+  <Hang MaHang ="mh02">
+    <TenHang>But chi</TenHang>
+    <SoLuong>190</SoLuong>
+    <LoaiHang>Binh thuong</LoaiHang>
+    <DonGia>5000</DonGia>
+  </Hang>
+</SieuThi>

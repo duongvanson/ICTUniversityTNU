@@ -1,0 +1,10 @@
+﻿<!ELEMENT SieuThi (TenSieuThi, DiaChi, SoDT, Hang+ )>
+<!ELEMENT TenSieuThi (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT SoDT (#PCDATA)>
+<!ELEMENT Hang (TenHang, SoLuong, LoaiHang, DonGia)>
+<!ELEMENT TenHang (#PCDATA)>
+<!ELEMENT SoLuong (#PCDATA)>
+<!ELEMENT LoaiHang (#PCDATA)>
+<!ELEMENT DonGia (#PCDATA)>
+<!ATTLIST Hang MaHang CDATA #IMPLIED>

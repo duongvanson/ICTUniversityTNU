@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="DSBN">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="BenhVien" type="xs:string"/>
+				<xs:element name="NoiDung" type="xs:string"/>
+				<xs:element name="Khoa" minOccus="0" maxOccus="100">
+					<xs:complexType>
+						<xs:attribute name="MaKhoa" type="xs:string"/>
+						<xs:element name="DanhSachBenhNhan">
+							<xs:element name="BenhNhan" minOccus="0" maxOccus="1000">
+								<xs:complexType>
+									<xs:attribute name="MaBenhAn" type="xs:string"/>
+									<xs:element name="STT" type="xs:integer"/>
+									<xs:element name="HoTen" type="xs:string"/>
+									<xs:element name="DiaChi" type="xs:string"/>
+									<xs:element name="GioiTinh" type="xs:string"/>
+									<xs:element name="NgayNhap" type="xs:date"/>
+									<xs:element name="NgayDieuTri" type="xs:integer"/>
+									<xs:element name="TienTra" type="xs:double"/>
+								</xs:complexType>
+							</xs:element>	
+						</xs:element>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

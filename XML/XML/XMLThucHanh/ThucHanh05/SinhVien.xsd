@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SinhVien"
+    targetNamespace="http://tempuri.org/SinhVien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/SinhVien.xsd"
+    xmlns:mstns="http://tempuri.org/SinhVien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="DanhSachSinhVien">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SinhVien" type="K_SV" minOccurs="0" maxOccurs="100"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="K_SV">
+    <xs:sequence>
+      <xs:element name="STT" type="xs:int"/>
+      <xs:element name="HoTen" type="xs:string"/>
+      <xs:element name="GioiTinh">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Nam"/>
+            <xs:enumeration value="Nữ"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="NgaySinh" type="xs:date"/>
+      <xs:element name="MaLop">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z]{4}[0-9]{2}"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaSV" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>

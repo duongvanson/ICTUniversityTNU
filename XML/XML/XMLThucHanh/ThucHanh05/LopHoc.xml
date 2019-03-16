@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="LopHoc.xslt" ?>
+<DanhSachLop>
+  <Lop>
+    <MaLop>TKPM15A</MaLop>
+    <TenLop>Kỹ thuật phần mềm 15a</TenLop>
+  </Lop>
+  <Lop>
+    <MaLop>TKPM14A</MaLop>
+    <TenLop>Kỹ thuật phần mềm 14a</TenLop>
+  </Lop>
+  <Lop>
+    <MaLop>TKPM13A</MaLop>
+    <TenLop>Kỹ thuật phần mềm 13a</TenLop>
+  </Lop>
+</DanhSachLop>

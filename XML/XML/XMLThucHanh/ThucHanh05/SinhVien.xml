@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="SinhVien.xslt" ?>
+<!--<DanhSachSinhVien xmlns="http://tempuri.org/SinhVien.xsd">-->
+<DanhSachSinhVien>
+  <SinhVien MaSV="sv01">
+    <STT>1</STT>
+    <HoTen>Duong Van Son</HoTen>
+    <GioiTinh>Nam</GioiTinh>
+    <NgaySinh>1998-10-10</NgaySinh>
+    <MaLop>KTPM15</MaLop>
+  </SinhVien>
+  <SinhVien MaSV="sv02">
+    <STT>2</STT>
+    <HoTen>Duong Hoang Anh</HoTen>
+    <GioiTinh>Nam</GioiTinh>
+    <NgaySinh>2005-10-10</NgaySinh>
+    <MaLop>KTPM13</MaLop>
+  </SinhVien>
+  <SinhVien MaSV="sv03">
+    <STT>3</STT>
+    <HoTen>Duong Huyen Anh</HoTen>
+    <GioiTinh>Nam</GioiTinh>
+    <NgaySinh>1996-10-10</NgaySinh>
+    <MaLop>KTPM15</MaLop>
+  </SinhVien>
+  <SinhVien MaSV="sv04">
+    <STT>4</STT>
+    <HoTen>Nguyen Gia Bao</HoTen>
+    <GioiTinh>Nam</GioiTinh>
+    <NgaySinh>2010-10-10</NgaySinh>
+    <MaLop>KTPM15</MaLop>
+  </SinhVien>
+</DanhSachSinhVien>

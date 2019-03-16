@@ -1,0 +1,9 @@
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\bin\Debug\XMLThucHanh.exe.config
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\bin\Debug\XMLThucHanh.exe
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\bin\Debug\XMLThucHanh.pdb
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\obj\Debug\XMLThucHanh.csprojAssemblyReference.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\obj\Debug\XMLThucHanh.Properties.Resources.resources
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\obj\Debug\XMLThucHanh.csproj.GenerateResource.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\obj\Debug\XMLThucHanh.csproj.CoreCompileInputs.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\obj\Debug\XMLThucHanh.exe
+D:\GIT\ICTUniversityTNU\XML\XML\XMLThucHanh\obj\Debug\XMLThucHanh.pdb

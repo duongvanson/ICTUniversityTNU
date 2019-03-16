@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--<!DOCTYPE KhachSan SYSTEM "..\ThucHanh02\KhachSanX.dtd">-->
-<KhachSan xmlns="http://tempuri.org/KhachSanX.xsd">
+<?xml-stylesheet type="text/xsl" href="KhachSan.xslt"?>
+<KhachSan>
   <DiaChi>123 ABC</DiaChi>
   <SDT>0974763445</SDT>
   <BangThuePhong>

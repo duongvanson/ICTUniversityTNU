@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MonHoc"
+    targetNamespace="http://tempuri.org/MonHoc.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/MonHoc.xsd"
+    xmlns:mstns="http://tempuri.org/MonHoc.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="DanhSachMonHoc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MonHoc" minOccurs="0" maxOccurs="100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TenMonHoc" type="xs:string"/>
+              <xs:element name="SoGio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:int">
+                    <xs:minInclusive value="4"/>
+                    <xs:maxInclusive value="48"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="MaMonHoc" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

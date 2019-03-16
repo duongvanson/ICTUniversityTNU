@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="HocPhan.xslt"?>
+<!--<HocPhan xmlns="http://tempuri.org/HocPhan.xsd">-->
+<HocPhan>
+  <LopHocPhan>XML Learn</LopHocPhan>
+  <HocKy>2</HocKy>
+  <NamHoc>2019-2021</NamHoc>
+  <SoTinChi>3</SoTinChi>
+  <DanhSachSinhVien>
+    <SinhVien>
+      <STT>1</STT>
+      <HoTen>Dương Văn Sơn</HoTen>
+      <NgaySinh>03/01/1998</NgaySinh>
+      <Lop>KTPM K15A</Lop>
+      <ThuongXuyen>10</ThuongXuyen>
+      <Thi>10</Thi>
+      <TKHocPhan>10</TKHocPhan>
+      <DiemChu>A</DiemChu>
+    </SinhVien>
+    <SinhVien>
+      <STT>2</STT>
+      <HoTen>Nguyễn Hoàng Thắng</HoTen>
+      <NgaySinh>26/08/1998</NgaySinh>
+      <Lop>KTPM K15A</Lop>
+      <ThuongXuyen>1</ThuongXuyen>
+      <Thi>1</Thi>
+      <TKHocPhan>1</TKHocPhan>
+      <DiemChu>F</DiemChu>
+    </SinhVien>
+  </DanhSachSinhVien>
+</HocPhan>

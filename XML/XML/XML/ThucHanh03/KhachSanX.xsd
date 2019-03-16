@@ -12,7 +12,7 @@
         <xs:element name="DiaChi" type="xs:string"/>
         <xs:element name="SDT">
           <xs:simpleType>
-          <xs:restriction base="xs:string">
+          <xs:restriction base="xs:int">
             <xs:pattern value="[0-9]{10,11}"/>
           </xs:restriction>
         </xs:simpleType>

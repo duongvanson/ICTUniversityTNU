@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="MonHoc.xslt"?>
+<!--<DanhSachMonHoc xmlns="http://tempuri.org/MonHoc.xsd">-->
+<DanhSachMonHoc>
+  <MonHoc MaMonHoc="csdl">
+    <TenMonHoc>Cở sở dữ liệu</TenMonHoc>
+    <SoGio>4</SoGio>
+  </MonHoc>
+  <MonHoc MaMonHoc="xml">
+    <TenMonHoc>XML và Ứng dụng</TenMonHoc>
+    <SoGio>40</SoGio>
+  </MonHoc>
+</DanhSachMonHoc>

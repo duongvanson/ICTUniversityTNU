@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KetQua"
+    targetNamespace="http://tempuri.org/KetQua.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/KetQua.xsd"
+    xmlns:mstns="http://tempuri.org/KetQua.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="MonThi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Mon" minOccurs="0" maxOccurs="100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaSV" type="xs:string"/>
+              <xs:element name="MaMH" type="xs:string"/>
+              <xs:element name="DiemThi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:float">
+                    <xs:minInclusive value="0"/>
+                    <xs:maxInclusive value="10"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

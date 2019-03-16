@@ -22,8 +22,7 @@
             <th>Điểm</th>
           </tr>
           <xsl:for-each select="MonThi/Mon">
-            <xsl:if test="MaMH = 'THVP'">
-              <xsl:if test="DiemThi >= '5'">
+            <xsl:if test="MaMH = 'THVP' and DiemThi >= '5'">
               <tr>
                 <td>
                   <xsl:value-of select="MaSV"/>
@@ -35,7 +34,6 @@
                   <xsl:value-of select="DiemThi"/>
                 </td>
               </tr>
-              </xsl:if>
             </xsl:if>
           </xsl:for-each>
         </table>

@@ -72,6 +72,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ThucHanh05\SinhVien.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThucHanh06\HocPhan.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThucHanh06\KetQua.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThucHanh06\MonHoc.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -79,6 +91,17 @@
   <ItemGroup>
     <Content Include="ThucHanh05\LopHoc.xml" />
     <Content Include="ThucHanh05\LopHoc.xslt" />
+    <Content Include="ThucHanh05\SinhVien.xml" />
+    <Content Include="ThucHanh05\SinhVien.xslt" />
+    <Content Include="ThucHanh06\HocPhan.xml" />
+    <Content Include="ThucHanh06\HocPhan.xslt" />
+    <Content Include="ThucHanh06\KetQua.xml" />
+    <Content Include="ThucHanh06\KhachSan.xml" />
+    <Content Include="ThucHanh06\KhachSan.xslt" />
+    <Content Include="ThucHanh06\MonHoc.xml" />
+    <Content Include="ThucHanh06\MonHoc.xslt" />
+    <Content Include="ThucHanh06\KetQua.xslt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

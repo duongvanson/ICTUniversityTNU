@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE DSBN SYSTEM "BenhNhan.dtd">
+<DSBN>
+	<BenhVien>BENH VIEN DA KHOA</BenhVien>
+	<NoiDung>DANH SACH CAC BENH NHAN</NoiDung>
+	<Khoa MaKhoa="KH01">
+		<DanhSachBenhNhan>
+			<BenhNhan MaBenhAn="BN01">
+				<STT>1</STT>
+				<HoTen>NGUYEN A</HoTen>
+				<DiaChi>THAI NGUYEN</DiaChi>
+				<GioiTinh>Nam</GioiTinh>
+				<NgayNhap>12/02/2016</NgayNhap>
+				<NgayDieuTri>15</NgayDieuTri>
+				<TienTra>1500</TienTra>
+			</BenhNhan>
+			<BenhNhan MaBenhAn="BN01">
+				<STT>1</STT>
+				<HoTen>NGUYEN A</HoTen>
+				<DiaChi>THAI NGUYEN</DiaChi>
+				<GioiTinh>Nam</GioiTinh>
+				<NgayNhap>12/02/2016</NgayNhap>
+				<NgayDieuTri>15</NgayDieuTri>
+				<TienTra>1500</TienTra>
+			</BenhNhan>
+		</DanhSachBenhNhan>
+	</Khoa>
+	<Khoa MaKhoa="KH02">
+		<DanhSachBenhNhan>
+			<BenhNhan MaBenhAn="BN01">
+				<STT>1</STT>
+				<HoTen>NGUYEN A</HoTen>
+				<DiaChi>THAI NGUYEN</DiaChi>
+				<GioiTinh>Nam</GioiTinh>
+				<NgayNhap>12/02/2016</NgayNhap>
+				<NgayDieuTri>15</NgayDieuTri>
+				<TienTra>1500</TienTra>
+			</BenhNhan>
+			<BenhNhan MaBenhAn="BN01">
+				<STT>1</STT>
+				<HoTen>NGUYEN A</HoTen>
+				<DiaChi>THAI NGUYEN</DiaChi>
+				<GioiTinh>Nam</GioiTinh>
+				<NgayNhap>12/02/2016</NgayNhap>
+				<NgayDieuTri>15</NgayDieuTri>
+				<TienTra>1500</TienTra>
+			</BenhNhan>
+		</DanhSachBenhNhan>
+	</Khoa>
+</DSBN>

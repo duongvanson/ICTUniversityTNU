@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        xmlns:material="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBox Width="300" Padding="5, 3, 5, 3"    
+         KeyUp="TextBox_KeyUp"  Name="textBox" />
+        <!--<Border Width="298" Height="150" BorderBrush="Black"   
+        BorderThickness="1" Name="helloborder" Visibility="Collapsed">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel Name="resultStack"></StackPanel>
+            </ScrollViewer>
+        </Border>
+        <Button Width="100">OK</Button>-->
+        <Popup Name="popup"
+         PlacementTarget = "{Binding ElementName = textBox}"
+         AllowsTransparency = "True" PopupAnimation = "Fade">
+            <ScrollViewer VerticalScrollBarVisibility="Auto"
+                          Height="100" Width="100">
+                <StackPanel Name="resultStack"></StackPanel>
+            </ScrollViewer>
+        </Popup>
+        <Button Width="100">OK</Button>
+    </StackPanel>
+</Window>

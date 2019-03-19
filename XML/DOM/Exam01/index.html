@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>XML DOM 01</title>
+	<script>
+		function readXMLBook() {
+			var xmlhttp = new XMLHttpRequest();//new ActiveXObject("Microsoft.XMLDOM")
+			xmlhttp.open("GET","book.xml");
+			xmlhttp.send();
+			var xmlDoc = xmlhttp.responseXML;
+
+			var books = xmlDoc.documentElement;
+			var book = books.firstChild;
+			var title = book.firstChild.firstChild.nodeValue;
+			getElementById('content').innerHTML = title;
+		}
+	</script>
+</head>
+<body>
+	<h1>READ XML BOOK</h1>
+	<input type="button" name="btnRead" value="Read XML" onclick="readXMLBook()">
+	<div id="content"></div>
+</body>
+</html>

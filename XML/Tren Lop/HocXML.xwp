@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="HocXML.xwp" homepath="C:\Users\dvson\Desktop\ICTUniversityTNU\XML" example_xsl="" example_xml="" output_folder="" output_ext="">
+	<group name="DTD/Schema Files" filter="*.dtd;*.xsd" description="This folder contains DTDs and XML Schema Files." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+	<group name="Stylesheets" filter="*.css;*.xsl;*.xslt" description="This folder contains CSS and XSLT Stylesheets." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+	<group name="XML Files" filter="*.xml" description="This folder contains XML Files." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<group name="QuanLyMuonTra" filter="" description="" example_xml="" example_xsl="" output_folder="" output_ext="">
+			<file path="C:\Users\dvson\OneDrive\Máy tính\ICTUniversityTNU\XML\TheDocGia.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		</group>
+		<file path="C:\Users\dvson\OneDrive\Máy tính\ICTUniversityTNU\XML\QLSinhVien2.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="C:\Users\dvson\Desktop\ICTUniversityTNU\XML\B3QuanLyDiem.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="C:\Users\dvson\OneDrive\Máy tính\ICTUniversityTNU\XML\KetQuaHocTap.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl="">
+			<open caret_pos_x="27" caret_pos_y="12" sel_start_x="27" sel_start_y="12" sel_end_x="27" sel_end_y="12" window_x1="52" window_x2="994" window_y1="52" window_y2="348" state="1"/>
+		</file>
+		<file path="C:\Users\dvson\Desktop\ICTUniversityTNU\XML\B5QuanLyHang.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="C:\Users\dvson\Desktop\ICTUniversityTNU\XML\B1DanhSach.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="C:\Users\dvson\OneDrive\Máy tính\ICTUniversityTNU\XML\QLSinhVien.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl="">
+			<open caret_pos_x="9" caret_pos_y="19" sel_start_x="9" sel_start_y="19" sel_end_x="9" sel_end_y="19" window_x1="52" window_x2="964" window_y1="52" window_y2="366" state="1"/>
+		</file>
+		<file path="C:\Users\dvson\OneDrive\Máy tính\ICTUniversityTNU\XML\QuanLySachMuon.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl="">
+			<open caret_pos_x="0" caret_pos_y="0" sel_start_x="0" sel_start_y="0" sel_end_x="0" sel_end_y="0" window_x1="78" window_x2="1020" window_y1="78" window_y2="374" state="3"/>
+		</file>
+		<file path="C:\Users\dvson\Desktop\ICTUniversityTNU\XML\First.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+	</group>
+	<group name="Output Files" filter="*.htm;*.html" description="This folder receives output from XSL transformations." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+</project>

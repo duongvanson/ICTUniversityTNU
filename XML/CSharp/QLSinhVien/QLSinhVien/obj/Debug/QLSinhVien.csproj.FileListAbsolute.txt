@@ -1,0 +1,17 @@
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\bin\Debug\data\danhsachsinhvien.xml
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.exe.config
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.exe
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\bin\Debug\QLSinhVien.pdb
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.frmMain.resources
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.Properties.Resources.resources
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.GenerateResource.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.CoreCompileInputs.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.exe
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.pdb
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.frmThemVaSua.resources
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csprojAssemblyReference.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\bin\Debug\MaterialDesignColors.dll
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLSinhVien\QLSinhVien\obj\Debug\QLSinhVien.csproj.CopyComplete

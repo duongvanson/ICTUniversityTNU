@@ -1,0 +1,11 @@
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\GIT\ICTUniversityTNU\XML\CSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\books.xml

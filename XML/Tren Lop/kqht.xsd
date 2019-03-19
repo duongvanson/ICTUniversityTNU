@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://your_namespace"
+        xmlns="http://your_namespace">
+        <xs:element name="KQHT">
+        	<xs:complexType>
+        		<xs:element name="NamHoc">
+        			<xs:restriction base="xs:integer">
+        				<xs:minInclusive value="1000"/>
+        			</xs:restriction>
+        		</xs:element>
+        		<xs:element name="SinhVien">
+        			<xs:complexType>
+        				
+        			</xs:complexType>
+        		</xs:element>
+        	</xs:complexType>
+        </xs:element>
+</xs:schema>
+

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<danhsach>
+  <sinhvien>
+    <masinhvien>DTC01</masinhvien>
+    <tensinhvien>Dương Văn Sơn</tensinhvien>
+    <lop>KTPM</lop>
+  </sinhvien>
+  <sinhvien>
+    <masinhvien>DTC02</masinhvien>
+    <tensinhvien>Nguyễn Gia Bảo</tensinhvien>
+    <lop>KTPM 2</lop>
+  </sinhvien>
+  <sinhvien>
+    <masinhvien>DTC03</masinhvien>
+    <tensinhvien>Nguyen Minh Anh</tensinhvien>
+    <lop>CNTT</lop>
+  </sinhvien>
+  <sinhvien>
+    <masinhvien>DTC04</masinhvien>
+    <tensinhvien>Dương Huyền Anh</tensinhvien>
+    <lop>KTPM</lop>
+  </sinhvien>
+  <sinhvien>
+    <masinhvien>asd</masinhvien>
+    <tensinhvien>sada</tensinhvien>
+    <lop>sfa</lop>
+  </sinhvien>
+</danhsach>

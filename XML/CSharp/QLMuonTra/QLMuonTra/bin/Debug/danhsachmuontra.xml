@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DanhSachSinhVien xmlns="http://tempuri.org/muontra.xsd">
+  <SinhVien MaSinhVien="DTC1">
+    <ThongTinSinhVien>
+      <HoTen>Dương Văn Sơn</HoTen>
+      <Lop>N01</Lop>
+      <NamSinh>1998</NamSinh>
+    </ThongTinSinhVien>
+    <ThongTinMuonTra>
+      <MuonTra>
+        <NgayMuon>2019-01-01</NgayMuon>
+        <NgayTra>2019-02-01</NgayTra>
+        <SachMuon>
+          <Sach MaSach="MS01">
+            <TenSach>Sách 01</TenSach>
+            <NhaXuatBan>DVS</NhaXuatBan>
+            <NamXuatBan>2018</NamXuatBan>
+          </Sach>
+        </SachMuon>
+      </MuonTra>
+    </ThongTinMuonTra>
+  </SinhVien>
+</DanhSachSinhVien>

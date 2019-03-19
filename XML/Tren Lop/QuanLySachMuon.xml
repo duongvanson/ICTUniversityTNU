@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE QLMuonTra [
+<!ELEMENT QLMuonTra (PhieuMuon*)>
+<!ELEMENT PhieuMuon (MaPhieuMuon, NgayMuon, NgayTra, TTDocGia, TTPhieuMuon)>
+<!ELEMENT MaPhieuMuon (#PCDATA)>
+<!ELEMENT NgayMuon (#PCDATA)>
+<!ELEMENT NgayTra (#PCDATA)>
+<!-- DOC GIA -->
+<!ELEMENT TTDocGia (MaDocGia, TenDocGia, NgaySinh, GioiTinh, DiaChi, SDT, NgayLapThe, NgayHetHan)>
+<!ELEMENT MaDocGia (#PCDATA) >
+<!ELEMENT TenDocGia (#PCDATA) >
+<!ELEMENT NgaySinh (#PCDATA) >
+<!ELEMENT GioiTinh (#PCDATA) >
+<!ELEMENT DiaChi (#PCDATA) >
+<!ELEMENT SDT (#PCDATA) >
+<!ELEMENT NgayLapThe (#PCDATA) >
+<!ELEMENT NgayHetHan (#PCDATA) >
+<!-- TTPhieuMuon -->
+<!ELEMENT TTPhieuMuon (TTSach, SoLuong)>
+<!ELEMENT TTSach (MaSach, TenSach, TacGia, NXB, TheLoai, SoLuongSach)>
+<!ELEMENT MaSach (#PCDATA) >
+<!ELEMENT TenSach (#PCDATA) >
+<!ELEMENT TacGia (#PCDATA) >
+<!ELEMENT NXB (#PCDATA) >
+<!ELEMENT TheLoai (#PCDATA) >
+<!ELEMENT SoLuongSach (#PCDATA) >
+<!ELEMENT SoLuong (#PCDATA)>
+
+]>
+<QLMuonTra>
+	<PhieuMuon>
+		<MaPhieuMuon>ABC</MaPhieuMuon>
+		<NgayMuon>12/12/2018</NgayMuon>
+		<NgayTra>12/12/2018</NgayTra>
+		<TTDocGia>
+			<MaDocGia>DG01</MaDocGia>
+			<TenDocGia>ABC</TenDocGia>
+			<NgaySinh>01/01/1998</NgaySinh>
+			<GioiTinh>Nam</GioiTinh>
+			<DiaChi>HA NOI</DiaChi>
+			<SDT>0123456789</SDT>
+			<NgayLapThe>12/12/2012</NgayLapThe>
+			<NgayHetHan>12/12/2012</NgayHetHan>
+		</TTDocGia>
+		<TTPhieuMuon>
+			<TTSach>
+				<MaSach>S01</MaSach>
+				<TenSach>SACH ABC</TenSach>
+				<TacGia>SON HIHI</TacGia>
+				<NXB>NXB</NXB>
+				<TheLoai>The Loai A</TheLoai>
+				<SoLuongSach>200</SoLuongSach>
+			</TTSach>
+			<SoLuong>15</SoLuong>
+		</TTPhieuMuon>
+	</PhieuMuon>
+	<PhieuMuon>
+		<MaPhieuMuon>ABC</MaPhieuMuon>
+		<NgayMuon>12/12/2018</NgayMuon>
+		<NgayTra>12/12/2018</NgayTra>
+		<TTDocGia>
+			<MaDocGia>DG01</MaDocGia>
+			<TenDocGia>ABC</TenDocGia>
+			<NgaySinh>01/01/1998</NgaySinh>
+			<GioiTinh>Nam</GioiTinh>
+			<DiaChi>HA NOI</DiaChi>
+			<SDT>0123456789</SDT>
+			<NgayLapThe>12/12/2012</NgayLapThe>
+			<NgayHetHan>12/12/2012</NgayHetHan>
+		</TTDocGia>
+		<TTPhieuMuon>
+			<TTSach>
+				<MaSach>S01</MaSach>
+				<TenSach>SACH ABC</TenSach>
+				<TacGia>SON HIHI</TacGia>
+				<NXB>NXB</NXB>
+				<TheLoai>The Loai A</TheLoai>
+				<SoLuongSach>200</SoLuongSach>
+			</TTSach>
+			<SoLuong>15</SoLuong>
+		</TTPhieuMuon>
+	</PhieuMuon>
+</QLMuonTra>

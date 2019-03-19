@@ -1,0 +1,13 @@
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\bin\Debug\danhsachmuontra.xml
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\bin\Debug\QLMuonTra.exe.config
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\bin\Debug\QLMuonTra.exe
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\bin\Debug\QLMuonTra.pdb
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.csprojAssemblyReference.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.frmMain.resources
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.Properties.Resources.resources
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.csproj.GenerateResource.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.csproj.CoreCompileInputs.cache
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.exe
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.pdb
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.frmThongTinMuonTra.resources
+D:\GIT\ICTUniversityTNU\XML\CSharp\QLMuonTra\QLMuonTra\obj\Debug\QLMuonTra.frmThemPhieu.resources

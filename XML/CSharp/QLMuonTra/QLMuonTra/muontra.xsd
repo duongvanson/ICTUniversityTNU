@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="muontra"
+    targetNamespace="http://tempuri.org/muontra.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/muontra.xsd"
+    xmlns:mstns="http://tempuri.org/muontra.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="DanhSachSinhVien" type="K_DSSV"/>
+  <xs:complexType name="K_DSSV">
+    <xs:sequence>
+      <xs:element name="SinhVien" type="K_SV" minOccurs="0" maxOccurs="100"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="K_SV">
+    <xs:sequence>
+      <xs:element name="ThongTinSinhVien" type="K_TTSV"/>
+      <xs:element name="ThongTinMuonTra" type="K_TTMT"/>        
+    </xs:sequence>
+    <xs:attribute name="MaSinhVien">
+      <xs:simpleType>
+        <xs:restriction base="xs:ID">
+          <xs:pattern value="[a-zA-Z0-9]{4}"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="K_TTSV">
+    <xs:sequence>
+      <xs:element name="HoTen" type="xs:string"/>
+      <xs:element name="Lop">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="N01"/>
+            <xs:enumeration value="N02"/>
+            <xs:enumeration value="N03"/>
+            <xs:enumeration value="N04"/>
+            <xs:enumeration value="N05"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="NamSinh" type="xs:int"/>
+    </xs:sequence>
+    
+  </xs:complexType>
+  <xs:complexType name="K_TTMT">
+    <xs:sequence>
+      <xs:element name="MuonTra" type="K_MT" minOccurs="0" maxOccurs="100"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="K_MT">
+    <xs:sequence>
+      <xs:element name="NgayMuon" type="xs:date"/>
+      <xs:element name="NgayTra" type="xs:date"/>
+      <xs:element name="SachMuon" type="K_SM"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="K_SM">
+    <xs:sequence>
+      <xs:element name="Sach" minOccurs="0" maxOccurs="100">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="TenSach" type="xs:string"/>
+            <xs:element name="NhaXuatBan" type="xs:string"/>
+            <xs:element name="NamXuatBan" type="xs:int"/>
+          </xs:sequence>
+          <xs:attribute name="MaSach">
+            <xs:simpleType>
+              <xs:restriction base="xs:ID">
+                <xs:pattern value="[a-zA-Z0-9]{4}"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

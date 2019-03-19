@@ -1,0 +1,17 @@
+<!ELEMENT HocBa (HoTen, NgaySinh, NamHoc*)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT NgaySinh (#PCDATA)>
+<!ELEMENT NamHoc (Lop, HocLuc, HanhKiem, GVCN, Mons)>
+<!ELEMENT Lop (#PCDATA)>
+<!ELEMENT HocLuc (#PCDATA)>
+<!ELEMENT HanhKiem (#PCDATA)>
+<!ELEMENT GVCN (#PCDATA)>
+<!ELEMENT Mons (Mon*)>
+<!ELEMENT Mon (STT, TenMon, HocKyI, HocKyII, CaNam)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT TenMon (#PCDATA)>
+<!ELEMENT HocKyI (#PCDATA)>
+<!ELEMENT HocKyII (#PCDATA)>
+<!ELEMENT CaNam (#PCDATA)>
+<!ATTLIST NamHoc number CDATA #REQUIRED>
+<!ATTLIST Mon mamon CDATA #REQUIRED>

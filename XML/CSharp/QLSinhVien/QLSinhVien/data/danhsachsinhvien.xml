@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<danhsach>
+  <sinhvien>
+    <masinhvien>DT01</masinhvien>
+    <tensinhvien>Duong Van Son</tensinhvien>
+    <lop>KTPM</lop>
+  </sinhvien>
+  <sinhvien>
+    <masinhvien>DT02</masinhvien>
+    <tensinhvien>Nguyen Gia Bao</tensinhvien>
+    <lop>KTPM 2</lop>
+  </sinhvien>
+</danhsach>

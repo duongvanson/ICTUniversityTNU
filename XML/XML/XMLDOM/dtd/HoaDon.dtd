@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT Quyen (HoaDon*)>
+<!ELEMENT HoaDon (Loai, Lien, VienThong, TenKhach, DiaChi, SDT, DichVuSuDung, TienChu, Ngay)>
+<!ELEMENT Loai (#PCDATA)>
+<!ELEMENT Lien (#PCDATA)>
+<!ELEMENT VienThong (#PCDATA)>
+<!ELEMENT TenKhach (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT SDT (#PCDATA)>
+<!ELEMENT DichVuSuDung (DichVu*)>
+<!ELEMENT TienChu (#PCDATA)>
+<!ELEMENT Ngay (#PCDATA)>
+<!ELEMENT TongTienDichVu (TThanhTien, TGhiChu)>
+<!ELEMENT ThueVAT (VATThanhTien, VATGhiChu)>
+<!ELEMENT TongTien (TongThanhTien, TongGhiChu)>
+<!ELEMENT DichVu (DVThanhTien, DVGhiChu)>
+<!ELEMENT TThanhTien (#PCDATA)>
+<!ELEMENT TGhiChu (#PCDATA)>
+<!ELEMENT VATThanhTien (#PCDATA)>
+<!ELEMENT VATGhiChu (#PCDATA)>
+<!ELEMENT TongThanhTien (#PCDATA)>
+<!ELEMENT TongGhiChu (#PCDATA)>
+<!ELEMENT DVThanhTien (#PCDATA)>
+<!ELEMENT DVGhiChu (#PCDATA)>
+
+
+
+
+
+

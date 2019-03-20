@@ -1,0 +1,12 @@
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\bin\Debug\xml\BenhVien.xml
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\bin\Debug\XMLDOM.exe.config
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\bin\Debug\XMLDOM.exe
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\bin\Debug\XMLDOM.pdb
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\obj\Debug\XMLDOM.csprojAssemblyReference.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\obj\Debug\XMLDOM.GUI.frmBenhVien.resources
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\obj\Debug\XMLDOM.Properties.Resources.resources
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\obj\Debug\XMLDOM.csproj.GenerateResource.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\obj\Debug\XMLDOM.csproj.CoreCompileInputs.cache
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\obj\Debug\XMLDOM.exe
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\obj\Debug\XMLDOM.pdb
+D:\GIT\ICTUniversityTNU\XML\XML\XMLDOM\obj\Debug\XMLDOM.GUI.frmThemSuaBenhNhan.resources

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT BenhVien (Khoa+)>
+<!ELEMENT Khoa (DSBN)>
+<!ELEMENT DSBN (BenhNhan+)>
+<!ELEMENT BenhNhan (STT, HoTen, DiaChi, GioiTinh, NgayNhap, SoNgay, TienTra)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT GioiTinh (#PCDATA)>
+<!ELEMENT NgayNhap (#PCDATA)>
+<!ELEMENT SoNgay (#PCDATA)>
+<!ELEMENT TienTra (#PCDATA)>
+<!ATTLIST BenhNhan mabenhan CDATA #IMPLIED>
+<!ATTLIST Khoa tenkhoa CDATA #IMPLIED>
+<!ATTLIST BenhVien tenbenhvien CDATA #IMPLIED>

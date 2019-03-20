@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BenhVien xmlns="http://tempuri.org/BenhVien.xsd">
+  <Khoa tenkhoa="Khoa Nội">
+    <DSBN>
+      <BenhNhan mabenhan="bn01">
+        <STT>1</STT>
+        <HoTen>Nguyen Van A</HoTen>
+        <DiaChi>Thai Nguyen</DiaChi>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayNhap>12/02/2015</NgayNhap>
+        <SoNgay>1</SoNgay>
+        <TienTra>1000</TienTra>
+      </BenhNhan>
+    </DSBN>
+  </Khoa>
+  <Khoa tenkhoa="Khoa Ngoại">
+    <DSBN>
+      <BenhNhan mabenhan="bn02">
+        <STT>2</STT>
+        <HoTen>Nguyen Thi B</HoTen>
+        <DiaChi>Ha Noi</DiaChi>
+        <GioiTinh>Nu</GioiTinh>
+        <NgayNhap>20/02/2015</NgayNhap>
+        <SoNgay>2</SoNgay>
+        <TienTra>2000</TienTra>
+      </BenhNhan>
+    </DSBN>
+  </Khoa>
+</BenhVien>

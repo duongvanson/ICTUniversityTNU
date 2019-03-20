@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BenhVien"
+    targetNamespace="http://tempuri.org/BenhVien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/BenhVien.xsd"
+    xmlns:mstns="http://tempuri.org/BenhVien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="BenhVien">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Khoa" type="K_Khoa" minOccurs="0" maxOccurs="100"/>
+      </xs:sequence>
+      <xs:attribute name="tenbenhvien" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="K_Khoa">
+    <xs:sequence>
+      <xs:element name="DSBN" type="K_DSBN"/>
+    </xs:sequence>
+    <xs:attribute name="tenkhoa" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="K_DSBN">
+    <xs:sequence>
+      <xs:element name="BenhNhan" minOccurs="0" maxOccurs="100" type="K_BenhNhan"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="K_BenhNhan">
+    <xs:sequence>
+      <xs:element name="STT" type="xs:string" />
+      <xs:element name="HoTen" type="xs:string" />
+      <xs:element name="DiaChi" type="xs:string" />
+      <xs:element name="GioiTinh" type="xs:string" />
+      <xs:element name="NgayNhap" type="xs:string" />
+      <xs:element name="SoNgay" type="xs:string" />
+      <xs:element name="TienTra" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="mabenhan" type="xs:string" />
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLSV xmlns="http://tempuri.org/SinhVien.xsd">
+  <SinhVien MaSV="1234567">
+    <HoTen>Nguyen Van A</HoTen>
+    <Lop>CTK28</Lop>
+    <DSMonHoc>
+      <MonHoc MaMH="EE12">
+        <TenMonHoc>Anh Van 1</TenMonHoc>
+        <STC>3</STC>
+        <Diem>9.6</Diem>
+      </MonHoc>
+      <MonHoc MaMH="TC33">
+        <TenMonHoc>Toan cao cap 3</TenMonHoc>
+        <STC>3</STC>
+        <Diem>8.2</Diem>
+      </MonHoc>
+    </DSMonHoc>
+  </SinhVien>
+  <SinhVien MaSV="1234565">
+    <HoTen>Nguyen Van B</HoTen>
+    <Lop>CTK30CD</Lop>
+    <DSMonHoc>
+      <MonHoc MaMH="HH24">
+        <TenMonHoc>Hoa hoc 2</TenMonHoc>
+        <STC>2</STC>
+        <Diem>8.0</Diem>
+      </MonHoc>
+      <MonHoc MaMH="LT01">
+        <TenMonHoc>lap trinh 1</TenMonHoc>
+        <STC>2</STC>
+        <Diem>7.8</Diem>
+      </MonHoc>
+    </DSMonHoc>
+  </SinhVien>
+</QLSV>

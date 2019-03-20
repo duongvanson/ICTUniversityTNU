@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11EC24BC-5553-457E-931F-ADCA34D5DD01}</ProjectGuid>
+    <ProjectGuid>{61478DB9-3E86-4A71-B68D-9E35F28DA38A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>XMLThucHanh</RootNamespace>
-    <AssemblyName>XMLThucHanh</AssemblyName>
+    <RootNamespace>XMLDOM</RootNamespace>
+    <AssemblyName>XMLDOM</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,8 +52,26 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frmBenhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmBenhVien.Designer.cs">
+      <DependentUpon>frmBenhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmThemSuaBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmThemSuaBenhNhan.Designer.cs">
+      <DependentUpon>frmThemSuaBenhNhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\frmBenhVien.resx">
+      <DependentUpon>frmBenhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmThemSuaBenhNhan.resx">
+      <DependentUpon>frmThemSuaBenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +81,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="dtd\BenhVien.dtd" />
+    <None Include="dtd\HoaDon.dtd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -72,16 +92,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="ThucHanh05\SinhVien.xsd">
+    <None Include="xsd\BenhVien.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="ThucHanh06\HocPhan.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ThucHanh06\KetQua.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ThucHanh06\MonHoc.xsd">
+    <None Include="xsd\SinhVien.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -89,21 +103,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ThucHanh05\LopHoc.xml" />
-    <Content Include="ThucHanh05\LopHoc.xslt" />
-    <Content Include="ThucHanh05\SinhVien.xml" />
-    <Content Include="ThucHanh05\SinhVien.xslt" />
-    <Content Include="ThucHanh06\HocPhan.xml" />
-    <Content Include="ThucHanh06\HocPhan.xslt" />
-    <Content Include="ThucHanh06\KetQua.xml" />
-    <Content Include="ThucHanh06\KhachSan.xml" />
-    <Content Include="ThucHanh06\KhachSan.xslt" />
-    <Content Include="ThucHanh06\MonHoc.xml" />
-    <Content Include="ThucHanh06\MonHoc.xslt" />
-    <Content Include="ThucHanh06\KetQua.xslt">
+    <Content Include="xml\HoaDon.xml" />
+    <Content Include="xml\KhachHang.xml" />
+    <Content Include="xml\SinhVien.xml" />
+    <None Include="xsd\KhachHang.xsd">
       <SubType>Designer</SubType>
-    </Content>
+    </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="xml\BenhVien.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Quyen SYSTEM "../dtd/HoaDon.dtd">
+<Quyen>
+  <HoaDon>
+    <Loai>Hoa don dich vu vien thong</Loai>
+    <Lien>Lien 2: mmm</Lien>
+    <VienThong>ABC</VienThong>
+    <TenKhach>A</TenKhach>
+    <DiaChi>Ha Noi</DiaChi>
+    <SDT>123465789</SDT>
+    <DichVuSuDung>
+      <DichVu>
+        <DVThanhTien>dv 1</DVThanhTien>
+        <DVGhiChu>null</DVGhiChu>
+      </DichVu>
+      <DichVu>
+        <DVThanhTien>dv 2</DVThanhTien>
+        <DVGhiChu>null</DVGhiChu>
+      </DichVu>
+    </DichVuSuDung>
+    <TienChu>mot tram</TienChu>
+    <Ngay>12/02/2015</Ngay>
+  </HoaDon>
+</Quyen>

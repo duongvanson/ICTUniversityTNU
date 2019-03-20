@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSKhachHang xmlns="http://tempuri.org/KhachHang.xsd">
+  <KhachHang MaKH="Kh01">
+    <HoTen>Ngyuyen Van A</HoTen>
+    <DiaChi>
+      <SoNha>13</SoNha>
+      <Xa>ABC</Xa>
+      <Huyen>FGH</Huyen>
+      <Tinh>Thai Nguyen</Tinh>
+    </DiaChi>
+    <SDT>1234567890</SDT>
+    <DSHang>
+      <Hang MaHang="mh01">
+        <TenHang>Coca</TenHang>
+        <SoLuong>2</SoLuong>
+        <DonGia>10000</DonGia>
+      </Hang>
+      <Hang MaHang="mh02">
+        <TenHang>Bimbim</TenHang>
+        <SoLuong>4</SoLuong>
+        <DonGia>5000</DonGia>
+      </Hang>
+    </DSHang>
+  </KhachHang>
+</DSKhachHang>

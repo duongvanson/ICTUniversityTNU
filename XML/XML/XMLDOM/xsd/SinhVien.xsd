@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SinhVien"
+    targetNamespace="http://tempuri.org/SinhVien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/SinhVien.xsd"
+    xmlns:mstns="http://tempuri.org/SinhVien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="QLSV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SinhVien" type="K_SinhVien" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="K_SinhVien">
+    <xs:sequence>
+      <xs:element name="HoTen" type="xs:string"/>
+      <xs:element name="Lop">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="CTK28"/>
+            <xs:enumeration value="CTK28CD"/>
+            <xs:enumeration value="CTK29"/>
+            <xs:enumeration value="CTK29CD"/>
+            <xs:enumeration value="CTK30"/>
+            <xs:enumeration value="CTK30CD"/>
+            <xs:enumeration value="CTK31"/>
+            <xs:enumeration value="CTK31CD"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="DSMonHoc">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="MonHoc" type="K_MonHoc" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaSV">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[0-9]{7}"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="K_MonHoc">
+    <xs:sequence>
+      <xs:element name="TenMonHoc" type="xs:string"/>
+      <xs:element name="STC">
+        <xs:simpleType>
+          <xs:restriction base="xs:int">
+            <xs:minExclusive value="1"/>
+            <xs:maxExclusive value="5"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Diem">
+        <xs:simpleType>
+          <xs:restriction base="xs:float">
+            <xs:minExclusive value="0"/>
+            <xs:maxExclusive value="10"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaMH">
+      <xs:simpleType>
+        <xs:restriction base="xs:ID">
+          <xs:pattern value="[a-zA-Z]{2}[0-9]{2}"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+</xs:schema>

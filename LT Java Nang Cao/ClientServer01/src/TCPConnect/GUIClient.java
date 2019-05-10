@@ -17,6 +17,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.Border;
 import TCPConnect.*;
+import javafx.scene.Parent;
 
 public class GUIClient extends JFrame{
 	public GUIClient() throws Exception{
@@ -47,11 +48,13 @@ public class GUIClient extends JFrame{
 					String result = client.sendServer(mess);
 					txtView.append("SERVER: "+result+"\n");
 					txtMess.setText("");
+                                        System.out.println(txtView.getText());
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
 			}
+                        
 		});
 		
 		pnlMain.add(lblTitle, BorderLayout.PAGE_START);
@@ -59,7 +62,7 @@ public class GUIClient extends JFrame{
 		pnlMain.add(pnlBot, BorderLayout.PAGE_END);
 		
 		this.getContentPane().add(pnlMain);
-		this.pack();
+//		this.pack();
 		this.setSize(500, 500);
 		// TODO Auto-generated constructor stub
 	}

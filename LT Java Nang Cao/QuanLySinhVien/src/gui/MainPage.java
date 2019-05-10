@@ -107,8 +107,11 @@ public class MainPage extends JFrame implements ActionListener{
             String name = txtName.getText();
             String sex = txtSex.getText();
             String address = txtAddress.getText();
-            if(connectData.addStudent(name, sex, address))
+            if(connectData.addStudent(name, sex, address)){
                 System.out.println("OK add");
+                //loadDataToTable();
+            }
+                
         }
         connectData.closeConn();
     }

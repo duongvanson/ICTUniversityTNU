@@ -9,8 +9,8 @@ public class TCPClient {
 	private DataOutputStream toServer;
 	
 	public TCPClient() throws Exception{
-		//Socket clientSocket = new Socket("duongson-pc",3042);
-		Socket clientSocket = new Socket("TUyenOC",69);
+		Socket clientSocket = new Socket("duongson-pc",3042);
+		//Socket clientSocket = new Socket("TUyenOC",69);
 		fromServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 		toServer = new DataOutputStream(clientSocket.getOutputStream());
 	}

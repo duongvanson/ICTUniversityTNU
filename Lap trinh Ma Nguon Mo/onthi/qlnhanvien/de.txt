@@ -1,0 +1,5 @@
+phong: map, tenp
+nhanvien: manv, tennv,namsinh,gioitinh, phong
+- Hien thi danh sach nhan vien
+- Them, sua, xoa, tim kiem.
+- * Phan trang, sap xep.

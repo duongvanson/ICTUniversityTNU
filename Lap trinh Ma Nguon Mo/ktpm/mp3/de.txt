@@ -1,0 +1,6 @@
+﻿CSDL:
+	baihat: mabh, tenbh, namst
+- Tao csdl
+- Model: hienthi, xoa, sua
+- Controller: tac vu xoa, sua
+- View: hien thi, xoa, sua

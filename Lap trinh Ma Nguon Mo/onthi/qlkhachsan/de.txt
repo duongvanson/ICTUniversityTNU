@@ -1,0 +1,2 @@
+Khach san:
+Phong: maphong, tenphong, loaiphong, dongia

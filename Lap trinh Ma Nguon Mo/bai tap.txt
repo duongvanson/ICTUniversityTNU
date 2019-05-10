@@ -1,0 +1,10 @@
+﻿CSDL:
+	Nhanvien: manv, tennv, ngaysinh, gioitinh
+	Duan: mada, tenda,ngansach
+	Thamgia: mada, manv, thoigianbatdau, thoigianketthuc
+- Tao csdl
+- Hien thi danh sach nhan vien
+- Hien thi danh sach nhan vien co gioi tinh = 1
+- Hien thi nhan vien tham gia >= 1 du an
+- ---------------------------- <= 0 du an
+- Di kem phan trang

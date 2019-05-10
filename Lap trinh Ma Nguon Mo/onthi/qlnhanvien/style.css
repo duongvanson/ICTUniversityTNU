@@ -1,0 +1,14 @@
+table{
+	border-collapse:collapse;
+}
+table,tr,th,td{
+	padding: 5px;
+	border: 1px solid green;
+}
+a{
+	text-decoration: none;
+}
+label{
+	display: inline-block;
+	width: 100px;
+}

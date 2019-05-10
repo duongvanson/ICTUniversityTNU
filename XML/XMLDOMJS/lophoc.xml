@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lophoc>
+	<sinhvien masv="sv01">
+		<hoten>Dương A</hoten>
+		<gioitinh>Nam</gioitinh>
+		<ngaysinh>03-01-1998</ngaysinh>
+	</sinhvien>
+	<sinhvien masv="sv02">
+		<hoten>Dương B</hoten>
+		<gioitinh>Nữ</gioitinh>
+		<ngaysinh>15-10-1998</ngaysinh>
+	</sinhvien>
+</lophoc>

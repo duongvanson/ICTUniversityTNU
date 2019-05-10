@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="vienthong.xslt"?>
+<Quyen>
+	<HoaDon makhach="K01">
+		<HoTen>Duong A</HoTen>
+		<DiaChi>Ha Noi</DiaChi>
+		<SDT>0123456789</SDT>
+		<DSDichVu>
+			<DichVu madv="abc">
+				<TenDV>Dịch vụ 1</TenDV>
+				<Gia>1000</Gia>
+			</DichVu>
+		</DSDichVu>
+	</HoaDon>
+	<HoaDon makhach="K02">
+		<HoTen>Duong B</HoTen>
+		<DiaChi>Ha Noi</DiaChi>
+		<SDT>0123456789</SDT>
+		<DSDichVu>
+			<DichVu madv="abc">
+				<TenDV>Dịch vụ 4</TenDV>
+				<Gia>1000</Gia>
+			</DichVu>
+			<DichVu madv="afa">
+				<TenDV>Dịch vụ 2</TenDV>
+				<Gia>1000</Gia>
+			</DichVu>
+		</DSDichVu>
+	</HoaDon>
+</Quyen>

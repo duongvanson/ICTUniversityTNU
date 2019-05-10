@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lớp học</title>
+		<style>
+			table{
+				border-collapse: collapse;
+			}
+			table,tr,th,td{
+				padding: 7px;
+				border: 1px solid green;
+			}
+		</style>
+		<script>
+			var doc = new ActiveXObject("Microsoft.XMLDOM");
+			doc.load("lophoc.xml");
+			var sinhviens = doc.getElementsByTagName("sinhvien");
+			var view = "<h3>Danh sách lớp học </h3>"
+			+ "<table>"
+			+"<tr>"
+			+ "<th>ID</th>"
+			+ "<th>Name</th>"
+			+ "<th>Sex</th>"
+			+ "<th>Bir</th>"
+			+"</tr>";
+			var data = "";
+			for(var i = 0; i < sinhviens.length; i++){
+				data += "<tr><td>" + sinhviens[i].attributes[0].value + "</td>"
+					+ "<td>" + sinhviens[i].childNodes[0].firstChild.nodeValue + "</td>"
+					+ "<td>" + sinhviens[i].childNodes[1].firstChild.nodeValue + "</td>"
+					+ "<td>" + sinhviens[i].childNodes[2].firstChild.nodeValue + "</td></tr>"; 
+			}
+			view += data + "</table>"
+			document.write(view);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

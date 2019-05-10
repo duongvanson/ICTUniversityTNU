@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script language = "JavaScript">
+		function show() {
+			var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+			xmlDoc.load("test.xml");
+			var output = "";
+			var dsHoaDon = xmlDoc.getElementsByTagName('HoaDon');
+			//document.write(dsHoaDon.length);
+			var hoaDon = null;
+			for (var i = 0; i < dsHoaDon.length; i++) {
+				if (dsHoaDon[i].attributes[0].value == "KH02") {
+					hoaDon = dsHoaDon[i];
+				}
+			}
+			if (hoaDon == null) {
+				output = "Khong co du lieu!";
+			}
+			else{
+				var maKH = hoaDon.attributes[0].value;
+				var hoTen = hoaDon.childNodes[0].firstChild.nodeValue;
+				var diaChi = hoaDon.childNodes[1].firstChild.nodeValue;
+				var sdt = hoaDon.childNodes[2].firstChild.nodeValue;
+				var output = "Mã KH: " + maKH + "<br/>"
+				+ "Họ tên: " + hoTen + "<br/>"
+				+ "Địa chỉ: " + diaChi + "<br/>"
+				+ "SDT: " + sdt + "<br/>"
+				+ "Danh sách thuốc: <br/>";
+				var dsThuoc = hoaDon.childNodes[3].childNodes;
+				for (var i = 0; i < dsThuoc.length; i++) {
+					var thuoc = dsThuoc[i];
+					var maThuoc = thuoc.attributes[0].value;
+					var tenThuoc = thuoc.childNodes[0].firstChild.nodeValue;
+					var soLuong = thuoc.childNodes[1].firstChild.nodeValue;
+					var donGia = thuoc.childNodes[2].firstChild.nodeValue;
+					var thanhTien = thuoc.childNodes[3].firstChild.nodeValue;
+					var ghiChu = thuoc.childNodes[4].firstChild.nodeValue;
+					output += "Mã thuốc: " + maThuoc + " - "
+					+ "Tên thuốc: " + tenThuoc + " - "
+					+ "Số lượng: " + soLuong + " - "
+					+ "Đơn giá: " + donGia + " - "
+					+ "Thành tiền: " + thanhTien + " - "
+					+ "Ghi chú: " + ghiChu + "<br/>";
+				}
+			}
+			document.write(output);
+		}
+	</script>
+</head>
+<body>
+	<button onclick="show()">OKkkkkkkkkkkk</button>
+</body>
+</html>

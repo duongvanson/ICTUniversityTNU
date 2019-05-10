@@ -1,0 +1,12 @@
+﻿Một phiếu mượn sách thư viện:
+	masv, hoten, lop, namsinh,
+va thông tin mượn sách của sinh viên bao gồm: 
+	thông tin về nhưng cuôn sách bao gồm: ngày mượn, ngày trả
+sách: mas, tens,nhaxb, namxb.
+Sinh vin muon nhieu cuon sach.
+X - Dinh nghia luoc do XML
+ 	masv, mas: 4 ki tu, 2 so-2 chu
+	lop: N01 -> N05
+X - Tao tai lieu hop le
+- Su dung xslt hien thi thong tin ve cac phieu muon
+- Dom hien thi danh sach phieu muon, them sua xoa, tim kiem 1 phieu muon theo ma sv.

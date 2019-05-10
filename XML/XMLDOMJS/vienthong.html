@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>XML DOM</title>
+		<meta charset="utf-8">
+		<script>
+			var doc = new ActiveXObject("Microsoft.XMLDOM");
+			doc.load("vienthong.xml");
+			var hoadons = doc.getElementsByTagName("HoaDon");
+			var outp = "Mã khách: "+hoadons[1].attributes[0].value + "<br>"
+					+ "Tên khách: "+hoadons[1].childNodes[0].firstChild.nodeValue+"<br>"
+					+ "Địa chỉ: "+hoadons[1].childNodes[1].firstChild.nodeValue+"<br>"
+					+ "Danh sách dịch vụ: <br>";
+			var dsdichvu = hoadons[1].childNodes[3].childNodes;
+			for(var i = 0; i < dsdichvu.length; i++){
+				outp += dsdichvu[i].attributes[0].value + " - "
+					+ dsdichvu[i].firstChild.firstChild.nodeValue + " - "
+					+ dsdichvu[i].lastChild.firstChild.nodeValue + "<br>"
+			}
+			document.write(outp);
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

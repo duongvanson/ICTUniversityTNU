@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>XML DOM</title>
+	<script>
+		var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+		xmlDoc.load("note.xml");
+		var outp = "";
+		var notes = xmlDoc.getElementsByTagName('note');
+		//document.write(notes.length+"");
+		for (var i = 0; i < notes.length; i++) {
+			var idnode = notes[i].attributes[0].value;
+			var title = notes[i].childNodes[0].firstChild.nodeValue;
+			var content = notes[i].childNodes[1].firstChild.nodeValue;
+			outp += "Mã node: " + idnode + "<br/>"
+				+ "Tiêu đề: " + title + "<br/>"
+				+ "Nội dung: " + content + "<br/><hr>"
+		}
+		document.write(outp);
+		function XemNode(index) {
+			var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+			xmlDoc.load("note.xml");
+			var notes = xmlDoc.getElementsByTagName('note');
+			var notew = "";
+			for (var i = 0; i < notes.length; i++) {
+				var idnode = notes[i].attributes[0].value;
+				if (idnode == "note"+index) {
+					var title = notes[i].childNodes[0].firstChild.nodeValue;
+					var content = notes[i].childNodes[1].firstChild.nodeValue;
+					notew += "Mã node: " + idnode + "<br/>"
+						+ "Tiêu đề: " + title + "<br/>"
+						+ "Nội dung: " + content + "<br/><hr>"
+				}
+			}
+			document.write(notew);
+		}
+	</script>
+</head>
+<body>
+	<button onclick="XemNode(2)">Xem Node</button>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="https://vsond.com/student.xsd"
+	elementFormDefault="qualified">
+	<xs:element name="student">
+		<xs:complexType>
+			<xs:quence>
+				<xs:element name="ID" type="xs:string"/>
+				<xs:element name="Name" type="xs:string"/>
+				<xs:element name="Sex" type="xs:string"/>
+			</xs:quence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

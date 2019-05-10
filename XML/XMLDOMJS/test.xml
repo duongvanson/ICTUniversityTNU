@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QLHoaDon>
+  <HoaDon MaKhachHang="KH01">
+    <HoTen>Nguyen Van A</HoTen>
+    <DiaChi>Thai Nguyen</DiaChi>
+    <SDT>1234567890</SDT>
+    <DSThuoc>
+      <Thuoc MaThuoc="TH01">
+        <TenThuoc>Thuoc 01</TenThuoc>
+        <SoLuong>1</SoLuong>
+        <DonGia>1000</DonGia>
+        <ThanhTien>1000</ThanhTien>
+        <GhiChu>Ko co ghi chu</GhiChu>
+      </Thuoc>
+      <Thuoc MaThuoc="TH02">
+        <TenThuoc>Thuoc 02</TenThuoc>
+        <SoLuong>2</SoLuong>
+        <DonGia>2000</DonGia>
+        <ThanhTien>4000</ThanhTien>
+        <GhiChu>Ko co ghi chu</GhiChu>
+      </Thuoc>
+    </DSThuoc>
+  </HoaDon>
+  <HoaDon MaKhachHang="KH02">
+    <HoTen>Nguyen Van A</HoTen>
+    <DiaChi>Thai Nguyen</DiaChi>
+    <SDT>1234567890</SDT>
+    <DSThuoc>
+      <Thuoc MaThuoc="TH03">
+        <TenThuoc>Thuoc 03</TenThuoc>
+        <SoLuong>3</SoLuong>
+        <DonGia>2000</DonGia>
+        <ThanhTien>6000</ThanhTien>
+        <GhiChu>Ko co ghi chu</GhiChu>
+      </Thuoc>
+      <Thuoc MaThuoc="TH04">
+        <TenThuoc>Thuoc 04</TenThuoc>
+        <SoLuong>2</SoLuong>
+        <DonGia>5000</DonGia>
+        <ThanhTien>10000</ThanhTien>
+        <GhiChu>Ko co ghi chu</GhiChu>
+      </Thuoc>
+    </DSThuoc>
+  </HoaDon>
+</QLHoaDon>

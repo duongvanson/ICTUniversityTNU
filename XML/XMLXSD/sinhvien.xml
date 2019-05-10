@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="sinhvien.xslt"?>
+<qldiem>
+  <!--xmlns="http://tempuri.org/SinhVien.xsd">-->
+  <SinhVien MaSV="DTC1">
+    <HoTen>A</HoTen>
+    <NamSinh>1998</NamSinh>
+    <Lop>CTK28</Lop>
+    <MonHoc MaMon="M123">
+      <TenMon>XML</TenMon>
+      <SoTC>3</SoTC>
+      <Diem>6</Diem>
+    </MonHoc>
+    <MonHoc MaMon="M124">
+      <TenMon>XML 2</TenMon>
+      <SoTC>3</SoTC>
+      <Diem>6</Diem>
+    </MonHoc>
+  </SinhVien>
+  <SinhVien MaSV="DTC2">
+    <HoTen>A</HoTen>
+    <NamSinh>1998</NamSinh>
+    <Lop>CTK28</Lop>
+    <MonHoc MaMon="M555">
+      <TenMon>XML</TenMon>
+      <SoTC>3</SoTC>
+      <Diem>2</Diem>
+    </MonHoc>
+  </SinhVien>
+</qldiem>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script>
+			var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+			xmlDoc.load("book.xml");
+			var lstBook = xmlDoc.getElementsByTagName("book");
+			var outp = "<h1>List book</h1>";
+			for (var i = 0; i < lstBook.length; i++) {
+				var b = lstBook[i];
+				outp += "Mã sách: " + b.attributes[0].value + "<br>"
+					+ "Tên sách: " + b.firstChild.firstChild.nodeValue + "<br>"
+					+ "Giá: " + b.lastChild.firstChild.nodeValue + "<br><br>"
+			}
+			document.write(outp);
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

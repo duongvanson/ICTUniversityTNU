@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+	<book id="book1">
+		<title>Book 01</title>
+		<price>5000</price>
+	</book>
+	<book id="book2">
+		<title>Book 02</title>
+		<price>75000</price>
+	</book>
+</books>

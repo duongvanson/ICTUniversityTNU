@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xslt"?>
+<student> <!-- xmlns="https://vsond.com/student.xsd"> -->
+	<ID>1</ID>
+	<Name>VSond</Name>
+	<Sex>Nam</Sex>
+</student>

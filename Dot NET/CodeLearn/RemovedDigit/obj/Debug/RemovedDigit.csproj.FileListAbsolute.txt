@@ -1,0 +1,7 @@
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\RemovedDigit\bin\Debug\RemovedDigit.exe.config
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\RemovedDigit\bin\Debug\RemovedDigit.exe
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\RemovedDigit\bin\Debug\RemovedDigit.pdb
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\RemovedDigit\obj\Debug\RemovedDigit.csprojAssemblyReference.cache
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\RemovedDigit\obj\Debug\RemovedDigit.csproj.CoreCompileInputs.cache
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\RemovedDigit\obj\Debug\RemovedDigit.exe
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\RemovedDigit\obj\Debug\RemovedDigit.pdb

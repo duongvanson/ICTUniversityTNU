@@ -1,7 +1,6 @@
 D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\LostMessage\bin\Debug\LostMessage.exe.config
 D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\LostMessage\bin\Debug\LostMessage.exe
 D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\LostMessage\bin\Debug\LostMessage.pdb
-D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\LostMessage\obj\Debug\LostMessage.csproj.CoreCompileInputs.cache
 D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\LostMessage\obj\Debug\LostMessage.exe
 D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\LostMessage\obj\Debug\LostMessage.pdb
 D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\LostMessage\obj\Debug\LostMessage.csprojAssemblyReference.cache

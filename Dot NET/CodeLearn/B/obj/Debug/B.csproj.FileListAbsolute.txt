@@ -1,0 +1,6 @@
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\B\bin\Debug\B.exe.config
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\B\bin\Debug\B.exe
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\B\bin\Debug\B.pdb
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\B\obj\Debug\B.exe
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\B\obj\Debug\B.pdb
+D:\GIT\ICTUniversityTNU\Dot NET\CodeLearn\B\obj\Debug\B.csprojAssemblyReference.cache

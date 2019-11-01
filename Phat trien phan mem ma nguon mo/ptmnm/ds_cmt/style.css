@@ -1,0 +1,51 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: consolas;
+	font-size: 16px;
+}
+a{
+	margin: 5px;
+}
+body{
+	margin: 20px auto;
+	width: 800px;
+}
+form{
+		background: green;
+		color: #fff;
+		padding: 10px;
+}
+label{
+	display: inline-block;
+	width: 100px;
+}
+input{
+	padding: 5px;
+}
+div{
+	margin: 5px;
+}
+div.cmt{
+	padding: 10px;
+	background: green;
+	color: white;
+	margin: 0 0 2px 0;
+}
+h1{
+	text-align: center;
+	background: blue;
+	padding: 10px;
+	color: white;
+}
+input[type=submit]{
+	background: blue;
+	color: #fff;
+	border: 1px solid white;
+	padding: 10px;
+	cursor: pointer;
+}
+hr{
+	border: 1px solid black;
+	margin: 5px;
+}
